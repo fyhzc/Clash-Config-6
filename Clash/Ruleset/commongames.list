@@ -44,7 +44,6 @@ DOMAIN-SUFFIX,orithegame.com
 DOMAIN-SUFFIX,tellmewhygame.com
 DOMAIN-SUFFIX,xbox.co
 DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xbox.eu
 DOMAIN-SUFFIX,xbox.org
 DOMAIN-SUFFIX,xboxplayanywhere.com
 DOMAIN-SUFFIX,xboxstudios.com
@@ -78,8 +77,6 @@ DOMAIN-SUFFIX,battleye.com
 DOMAIN-SUFFIX,eac-cdn.com
 DOMAIN-SUFFIX,easy.ac
 DOMAIN-SUFFIX,easyanticheat.net
-DOMAIN,modules-cdn.eac-prod.on.epicgames.com
-DOMAIN,d168vncdejh91z.cloudfront.net
 # faceit
 DOMAIN-SUFFIX,faceit.com
 DOMAIN-SUFFIX,faceit-cdn.net
