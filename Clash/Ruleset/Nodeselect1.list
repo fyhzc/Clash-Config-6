@@ -1,0 +1,46 @@
+#示例
+#DOMAIN-SUFFIX,4i3fjumcyt87ic4jtyi84rcfghiuer.com
+#IP-CIDR,8.8.8.8/32,no-resolve
+
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 199-202 lines
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN,www.gstatic.cn
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,gvt1.com
+
+# Google China https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 204-207 lines
+DOMAIN,translate.googleapis.com
+DOMAIN,safebrowsing-cache.google.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN,clientservices.googleapis.com
+
+# 国外dns服务器地址
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN,dns.google
+DOMAIN,doh.applied-privacy.net
+DOMAIN-SUFFIX,nextdns.io
+DOMAIN-SUFFIX,quad9.net
+DOMAIN-SUFFIX,dns.sb
+DOMAIN-SUFFIX,doh.sb
+DOMAIN,doh.cleanbrowsing.org
+DOMAIN,doh.opendns.com
+
+IP-CIDR,8.8.8.8/32,no-resolve
+IP-CIDR,8.8.4.4/32,no-resolve
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,1.0.0.1/32,no-resolve
+IP-CIDR,9.9.9.9/32,no-resolve
+IP-CIDR,149.112.112.112/32,no-resolve
+
+# 微软连接测试
+DOMAIN,www.msftconnecttest.com
+DOMAIN,www.msftncsi.com
+# edge标签页
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 210 line
+DOMAIN-SUFFIX,msn.cn
+# edge同步
+DOMAIN,activity.windows.com
+DOMAIN,edge-enterprise.activity.windows.com
+DOMAIN,edge.activity.windows.com

@@ -1,0 +1,121 @@
+# 中国国内常见域名关键词直连
+DOMAIN-KEYWORD,360buy
+DOMAIN-KEYWORD,alicdn
+DOMAIN-KEYWORD,alipay
+DOMAIN-KEYWORD,baidupcs
+DOMAIN-KEYWORD,kaishustory
+
+# 中移
+DOMAIN-SUFFIX,139.com
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-KEYWORD,chinamobile
+DOMAIN-KEYWORD,miguvideo
+
+# 中国联通
+DOMAIN-SUFFIX,10010.com
+DOMAIN-KEYWORD,chinaunicom
+DOMAIN-KEYWORD,unicompayment
+
+# 中国电信
+DOMAIN-KEYWORD,chinatelecom
+DOMAIN-SUFFIX,21cn.com
+DOMAIN-SUFFIX,21cn.net
+
+# 字节跳动 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/ByteDance.list
+DOMAIN-KEYWORD,bytedance
+DOMAIN-KEYWORD,toutiao
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,xigua
+DOMAIN-KEYWORD,zijie
+DOMAIN-KEYWORD,huoshan
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,amemv.net
+DOMAIN-SUFFIX,bytescm.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,bytednsdoc.com
+DOMAIN-SUFFIX,bytegoofy.com
+DOMAIN-SUFFIX,feishucdn.com
+
+# 斗鱼 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/DouYu.list
+DOMAIN-KEYWORD,douyu
+
+# 小猿搜题
+DOMAIN-KEYWORD,yuanfudao
+DOMAIN-KEYWORD,yfdurl
+DOMAIN-KEYWORD,yuansouti
+DOMAIN-KEYWORD,yuantiku
+DOMAIN-KEYWORD,shandiansiwei
+DOMAIN-KEYWORD,banmaaike
+DOMAIN-KEYWORD,banmagushi
+
+# 酷狗音乐
+DOMAIN-KEYWORD,kugou
+DOMAIN-SUFFIX,kgimg.com
+
+# 酷我音乐
+DOMAIN-SUFFIX,koowo.com
+
+# dingtalk
+DOMAIN-KEYWORD,dingtalk
+DOMAIN-SUFFIX,ddurl.to
+DOMAIN-SUFFIX,laiwang.com
+
+# 金融服务
+DOMAIN-SUFFIX,paypal.com
+
+DOMAIN-KEYWORD,unionpay
+
+DOMAIN-SUFFIX,visa.com
+DOMAIN-SUFFIX,visa.co
+
+DOMAIN-KEYWORD,citicbank
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,cncbinternational.com
+
+DOMAIN-KEYWORD,bankcomm
+
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-KEYWORD,ccbhome
+
+DOMAIN-SUFFIX,icbc-ltd.com
+DOMAIN-SUFFIX,icbc.com
+DOMAIN-KEYWORD,icbcstandard
+
+# jd
+DOMAIN-KEYWORD,jdpay
+DOMAIN-KEYWORD,jdcloud
+DOMAIN-SUFFIX,jd.com
+
+# hw
+DOMAIN-SUFFIX,vmall.com
+DOMAIN-SUFFIX,harmonyos.com
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-KEYWORD,hwclouds
+DOMAIN-KEYWORD,dbankcloud
+DOMAIN-KEYWORD,dbankcdn
+DOMAIN-KEYWORD,huawei
+
+# mi
+DOMAIN-KEYWORD,xiaomi
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,miui.com
+DOMAIN-SUFFIX,kuaipandata.com
+DOMAIN-SUFFIX,huami.com
+DOMAIN-SUFFIX,mipush.com
+DOMAIN-SUFFIX,duokan.com
+
+# 迅雷下载
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,xunlei.com
+
+# Anti-BT
+DOMAIN-KEYWORD,announce
+DOMAIN-KEYWORD,torrent
+DOMAIN-KEYWORD,tracker
+
+# dns服务
+DOMAIN-SUFFIX,dot.pub
+DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,dns.pub
+DOMAIN-SUFFIX,alidns.com

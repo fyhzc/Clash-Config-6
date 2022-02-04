@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,emome.net
+DOMAIN-SUFFIX,litv.tv
+IP-CIDR,101.101.101.101/32,no-resolve
+IP-CIDR,101.102.103.104/32,no-resolve

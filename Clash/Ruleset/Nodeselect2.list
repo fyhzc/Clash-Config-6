@@ -1,0 +1,47 @@
+# 服务
+# 强制使用节点选择
+# 验证码
+DOMAIN-SUFFIX,hcaptcha.com
+
+# 加速
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,oracle.com
+DOMAIN-SUFFIX,synology.com
+
+DOMAIN-SUFFIX,1password.com
+
+# 补充代理
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 208 line
+DOMAIN-SUFFIX,bing.com
+
+# yahoo
+DOMAIN-KEYWORD,yahoo
+DOMAIN-SUFFIX,yimg.com
+
+# firefox 浏览器
+DOMAIN-KEYWORD,mozilla
+DOMAIN-KEYWORD,mozaws
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,mozgcp.net
+DOMAIN-SUFFIX,moz.works
+DOMAIN-SUFFIX,mozit.cloud
+
+# 国外域名关键字
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,1e100
+DOMAIN-KEYWORD,beetalk
+DOMAIN-KEYWORD,dropbox
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,porn
+DOMAIN-KEYWORD,sci-hub
+DOMAIN-KEYWORD,twitter
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-KEYWORD,whatsapp
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-KEYWORD,terabox
+
+DOMAIN-SUFFIX,adguard.com

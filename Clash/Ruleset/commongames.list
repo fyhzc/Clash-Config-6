@@ -1,0 +1,279 @@
+# 示例
+# DOMAIN,game.com
+# DOMAIN-SUFFIX,game.com
+# 本人是游戏爱好者，纯自用，尽可能全覆盖！
+# 如果有任何问题，欢迎提出issues
+
+# udp测试 UDP and TCP ports 3478
+DOMAIN,stun.syncthing.net
+DOMAIN,stun.bige0.com
+DOMAIN,stun.stunprotocol.org
+DOMAIN,stun1.l.google.com
+DOMAIN,stun2.l.google.com
+DOMAIN,stun3.l.google.com
+DOMAIN,stun4.l.google.com
+DOMAIN,stun.ekiga.net
+DOMAIN,stun.ideasip.com
+DOMAIN,stun.schlund.de
+DOMAIN,stun.voiparound.com
+DOMAIN,stun.voipbuster.com
+DOMAIN,stun.voipstunt.com
+DOMAIN,stun.voxgratia.org
+DOMAIN,stun.services.mozilla.com
+DOMAIN,stun.xten.com
+DOMAIN,stun.sipgate.net
+DOMAIN,stun.counterpath.com
+DOMAIN,stun.1und1.de
+DOMAIN,stun.gmx.net
+DOMAIN,stun.callwithus.com
+DOMAIN,stun.counterpath.net
+DOMAIN,stun.internetcalls.com
+DOMAIN,numb.viagenie.ca
+DOMAIN-SUFFIX,stun.playstation.net
+DOMAIN-SUFFIX,srv.nintendo.net
+
+# 三大游戏机平台
+
+# Xbox 来自 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Xbox.list
+# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xbox
+# 更新日期：2022年 2月 3日
+DOMAIN-SUFFIX,forzamotorsport.net
+DOMAIN-SUFFIX,forzaracingchampionship.com
+DOMAIN-SUFFIX,forzarc.com
+DOMAIN-SUFFIX,orithegame.com
+DOMAIN-SUFFIX,tellmewhygame.com
+DOMAIN-SUFFIX,xbox.co
+DOMAIN-SUFFIX,xbox.com
+DOMAIN-SUFFIX,xbox.eu
+DOMAIN-SUFFIX,xbox.org
+DOMAIN-SUFFIX,xboxplayanywhere.com
+DOMAIN-SUFFIX,xboxstudios.com
+DOMAIN-SUFFIX,gamepass.com
+DOMAIN-SUFFIX,zune.net
+DOMAIN-KEYWORD,xboxab
+DOMAIN-KEYWORD,xbox360
+DOMAIN-KEYWORD,xboxgame
+DOMAIN-KEYWORD,xboxlive
+DOMAIN-KEYWORD,xboxone
+DOMAIN-KEYWORD,xboxservice
+
+# Sony playstation 来自https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+# 注意 ：https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 215-218 lines
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sony.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,playstation.net
+
+# 任天堂 switch 参考 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nintendo
+# https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Nintendo.list
+DOMAIN-KEYWORD,nintendo
+DOMAIN-SUFFIX,e10127.a.akamaiedge.net
+
+# 驱动、反作弊以及游戏周边资源
+# 反作弊加速
+# battleye
+DOMAIN-SUFFIX,battleye.com
+# EAC
+DOMAIN-SUFFIX,eac-cdn.com
+DOMAIN-SUFFIX,easy.ac
+DOMAIN-SUFFIX,easyanticheat.net
+DOMAIN,modules-cdn.eac-prod.on.epicgames.com
+DOMAIN,d168vncdejh91z.cloudfront.net
+# faceit
+DOMAIN-SUFFIX,faceit.com
+DOMAIN-SUFFIX,faceit-cdn.net
+
+# 外设产品、驱动或工具
+# 华硕
+DOMAIN-SUFFIX,asus.com
+# 罗技
+DOMAIN-SUFFIX,logi.com
+DOMAIN-KEYWORD,logitech
+DOMAIN-SUFFIX,logitech.zendesk.com
+# NVIDIA
+DOMAIN-SUFFIX,nvidia.com
+
+# 游戏商店、游戏平台登录和游戏下载
+# 将游戏下载融入列表，是为了更良好的下载体验
+# 部分在国内有cdn的，已经将cdn加入“直连列表”,https://raw.githubusercontent.com/loongfzs/Clash-Config/main/Clash/Ruleset/directly.list
+
+# Uplay
+# uplay云同步
+DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
+DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
+# 
+DOMAIN-SUFFIX,ubisoftconnect.com
+DOMAIN-SUFFIX,ubisoft.com
+DOMAIN-SUFFIX,ubi.com
+# uplay连接问题
+DOMAIN-SUFFIX,ubistatic3-a.akamaihd.net
+DOMAIN-SUFFIX,ubistatic2-a.akamaihd.net
+
+# ubisoft游戏内
+DOMAIN-SUFFIX,justdancenow.com
+
+# Steam
+# 威乐公司
+DOMAIN-SUFFIX,valve.net
+DOMAIN-SUFFIX,valvesoftware.com
+# Steam平台,参考 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list，9-16lines
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com.8686c.com
+DOMAIN-SUFFIX,steamstat.us
+DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN,steamcloud-ugc.storage.googleapis.com
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steamcdn-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN,community.akamai.steamstatic.com
+DOMAIN,steamvideo-a.akamaihd.net
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN-SUFFIX,steamcommunity.com
+
+# EPIC 虚幻游戏平台 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/epicgames
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,helpshift.com
+DOMAIN-SUFFIX,paragon.com
+DOMAIN-SUFFIX,unrealengine.com
+DOMAIN-SUFFIX,epicgames.dev
+DOMAIN-SUFFIX,battlebreakers.com
+DOMAIN-SUFFIX,playparagon.com
+DOMAIN-SUFFIX,roborecall.com
+DOMAIN-SUFFIX,shadowcomplex.com
+DOMAIN-SUFFIX,spyjinx.com
+DOMAIN-SUFFIX,unrealtournament.com
+
+# epic国际 下载
+DOMAIN,epicgames-download1.akamaized.net
+
+# GOG游戏平台 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list
+# 仅国际
+DOMAIN-SUFFIX,gog.com
+
+# EA游戏平台
+# 2
+
+DOMAIN-SUFFIX,warframe.com
+
+# R星游戏
+DOMAIN-SUFFIX,rockstargames.com
+DOMAIN,gamedownloads-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
+DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
+
+# 暴雪战网
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
+
+# B社
+DOMAIN-SUFFIX,bethesda.net
+
+# 内容：Discord，数量：6条 来自https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list
+# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/discord
+DOMAIN-KEYWORD,discord
+
+#TapTap 参考https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list，数量：2条
+DOMAIN-SUFFIX,tap.io
+DOMAIN-SUFFIX,tapimg.com
+DOMAIN-SUFFIX,taptap.io
+DOMAIN-SUFFIX,taptap.com
+
+# chinaplay
+DOMAIN-SUFFIX,chinaplay.store
+
+# 卡普空
+DOMAIN-SUFFIX,capcom.com
+DOMAIN-SUFFIX,capcom-unity.com
+DOMAIN-SUFFIX,capcomusa.com
+DOMAIN-KEYWORD,residentevil
+DOMAIN-KEYWORD,devilmaycry
+
+#其他平台 来自 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN,humblebundle-a.akamaihd.net
+
+DOMAIN-SUFFIX,gameloft.com
+DOMAIN-SUFFIX,garena.com
+
+# 米哈游社区
+DOMAIN-SUFFIX,hoyolab.com
+
+# 游戏内域名
+# 绝地求生国际服
+DOMAIN-SUFFIX,playbattlegrounds.com
+DOMAIN-SUFFIX,pubg.com
+# 逃离塔克夫
+DOMAIN-SUFFIX,escapefromtarkov.com
+DOMAIN-SUFFIX,eft-store.com
+# hitman
+DOMAIN-SUFFIX,ioi.dk
+DOMAIN-SUFFIX,hitman.io
+DOMAIN-SUFFIX,hitman.com
+# 战地
+DOMAIN-SUFFIX,battlelog.com
+DOMAIN-SUFFIX,battlefield.com
+# 正当防卫
+DOMAIN-SUFFIX,eidos.com
+DOMAIN-SUFFIX,square-enix-games.com
+# 拳头游戏 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/riot
+DOMAIN-SUFFIX,historyofdota.com
+DOMAIN-SUFFIX,historyofdota.net
+DOMAIN-SUFFIX,historyofdota.org
+DOMAIN-SUFFIX,instituteofwar.org
+DOMAIN-SUFFIX,molesports.com
+DOMAIN-SUFFIX,rgpub.io
+DOMAIN-SUFFIX,riot-games.com
+DOMAIN-SUFFIX,riot.com
+DOMAIN-SUFFIX,riot.net
+DOMAIN-SUFFIX,riotcdn.net
+DOMAIN-KEYWORD,riotgames
+DOMAIN-SUFFIX,riotpin.com
+DOMAIN-SUFFIX,riotpoints.com
+DOMAIN-SUFFIX,rstatic.net
+DOMAIN-SUFFIX,supremacy.com
+DOMAIN-SUFFIX,supremacy.net
+# League of Lengends
+DOMAIN-SUFFIX,championshipseriesleague.com
+DOMAIN-SUFFIX,lcsmerch.com
+DOMAIN-SUFFIX,leaguehighschool.com
+DOMAIN-KEYWORD,leagueoflegends
+DOMAIN-SUFFIX,leaguesharp.info
+DOMAIN-SUFFIX,learnwithleague.com
+DOMAIN-SUFFIX,lol-europe.com
+DOMAIN-SUFFIX,lolclub.org
+DOMAIN-SUFFIX,lolespor.com
+DOMAIN-SUFFIX,lolesports.com
+DOMAIN-SUFFIX,lolfanart.net
+DOMAIN-SUFFIX,lolpcs.com
+DOMAIN-SUFFIX,lolshop.co.kr
+DOMAIN-SUFFIX,lolstatic.com
+DOMAIN-SUFFIX,lolusercontent.com
+DOMAIN-SUFFIX,pvp.net
+DOMAIN-SUFFIX,pvp.tv
+DOMAIN-SUFFIX,ulol.com
+DOMAIN-SUFFIX,lolstatic-a.akamaihd.net
+# Valorant
+DOMAIN-SUFFIX,playvalorant.com
+# Riot Forge
+DOMAIN-SUFFIX,riotforgegames.com
+DOMAIN-SUFFIX,ruinedking.com
+DOMAIN-SUFFIX,convrgencegame.com
+
+# 我的世界
+DOMAIN-SUFFIX,mojang.com
+DOMAIN-SUFFIX,minecraft.net

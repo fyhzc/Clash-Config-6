@@ -1,0 +1,15 @@
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,63.92.224.0/19,no-resolve
+IP-CIDR,65.199.22.0/23,no-resolve
+IP-CIDR,139.178.128.0/18,no-resolve
+IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
+
+# Apple 官网
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 211 line
+DOMAIN,www.apple.com
+
+DOMAIN,captive.apple.com
+DOMAIN,doh.dns.apple.com
+DOMAIN,doh.dns.apple.com.v.aaplimg.com
