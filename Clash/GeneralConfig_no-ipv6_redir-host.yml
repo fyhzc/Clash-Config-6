@@ -14,6 +14,9 @@ mixed-port: 7890
 # Linux 和 macOS 的 redir 代理端口 (如需使用此功能，请取消注释)
 # redir-port: 7892
 
+# 透明代理端口 Transparent proxy server port (TProxy TCP and TProxy UDP)
+# tproxy-port: 7893
+
 # 允许局域网的连接（可用来共享代理）----false true
 allow-lan: false
 
