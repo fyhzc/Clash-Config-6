@@ -19,8 +19,9 @@ DOMAIN-KEYWORD,yahoo
 DOMAIN-SUFFIX,yimg.com
 
 # firefox 浏览器
-DOMAIN-KEYWORD,mozilla
-DOMAIN-KEYWORD,mozaws
+DOMAIN-SUFFIX,mozilla.com
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,mozilla.net
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,mozgcp.net
 DOMAIN-SUFFIX,moz.works
@@ -28,20 +29,11 @@ DOMAIN-SUFFIX,mozit.cloud
 
 # 国外域名关键字
 DOMAIN-KEYWORD,youtube
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,beetalk
+DOMAIN-SUFFIX,1e100.net
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,twimg.com
-DOMAIN-KEYWORD,whatsapp
 DOMAIN-SUFFIX,reddit.com
-DOMAIN-KEYWORD,terabox
-
-DOMAIN-SUFFIX,adguard.com
