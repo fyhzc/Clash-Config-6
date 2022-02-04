@@ -18,7 +18,6 @@ DOMAIN,clientservices.googleapis.com
 
 # 国外dns服务器地址
 DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN,dns.google
 DOMAIN,doh.applied-privacy.net
 DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,quad9.net
