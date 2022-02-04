@@ -127,37 +127,20 @@ dns:
     - time-ios.apple.com
     - time-macos.apple.com
     - "*.pool.ntp.org"
-    - time1.cloud.tencent.com
-    - time2.cloud.tencent.com
-    - time.ustc.edu.cn
     - pool.ntp.org
-    - ntp.ubuntu.com
-    - ntp.aliyun.com
-    - ntp1.aliyun.com
-    - ntp2.aliyun.com
-    - time1.aliyun.com
-    - time2.aliyun.com
-    - music.163.com
-    - "*.music.163.com"
+    - "*.cloud.tencent.com"
+    - "*.ubuntu.com"
+    - "*.aliyun.com"
+    - "*.163.com"
     - "*.126.net"
-    - musicapi.taihe.com
-    - music.taihe.com
-    - songsearch.kugou.com
-    - trackercdn.kugou.com
-    - "*.kuwo.cn"
-    - api-jooxtt.sanook.com
-    - api.joox.com
+    - "*.taihe.com"
+    - "*.kugou.com"
+    - "*.joox.com"
     - joox.com
-    - y.qq.com
-    - "*.y.qq.com"
-    - localhost.ptlogin2.qq.com
-    - streamoc.music.tc.qq.com
-    - mobileoc.music.tc.qq.com
-    - isure.stream.qqmusic.qq.com
-    - dl.stream.qqmusic.qq.com
-    - aqqmusic.tc.qq.com
-    - amobile.music.tc.qq.com
-    - localhost.ptlogin2.qq.com
+    - "*.*.*.*.qq.com"
+    - "*.*.*.qq.com"
+    - "*.*.qq.com"
+    - "*.qq.com"
     - "*.*.*.srv.nintendo.net"
     - "*.*.stun.playstation.net"
     - xbox.*.*.microsoft.com
@@ -165,7 +148,6 @@ dns:
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
     - "*.battle.net"
-    - "*.*.*.*.*.*.*.cn"
     - "*.*.*.*.*.*.cn"
     - "*.*.*.*.*.cn"
     - "*.*.*.*.cn"
