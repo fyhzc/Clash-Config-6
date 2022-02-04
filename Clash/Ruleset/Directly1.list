@@ -14,8 +14,6 @@ DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
 # 蒸汽平台、steam中国CDN
 DOMAIN-SUFFIX,steamchina.com
 # 完美世界
-DOMAIN-SUFFIX,csgo.wmsj.cn
-DOMAIN-SUFFIX,dota2.wmsj.cn
 DOMAIN-SUFFIX,wmsjsteam.com
 # 金山云 cdn 游戏下载
 DOMAIN-SUFFIX,dl.steam.clngaa.com
@@ -59,19 +57,9 @@ IP-CIDR6,2403:300:a42::/48,no-resolve
 IP-CIDR6,2403:300:a51::/48,no-resolve
 IP-CIDR6,2a01:b740:a42::/48,no-resolve
 
-# 老鼠台视频流
+# twitch(老鼠台)直播视频流
 DOMAIN-SUFFIX,ttvnw.net
 DOMAIN,static.twitchcdn.net
-# 老鼠台回放
-DOMAIN,d2e2de1etea730.cloudfront.net
-DOMAIN,dqrpb9wgowsf5.cloudfront.net
-DOMAIN,ds0h3roq6wcgc.cloudfront.net
-DOMAIN,d2nvs31859zcd8.cloudfront.net
-DOMAIN,d2aba1wr3818hz.cloudfront.net
-DOMAIN,d3c27h4odz752x.cloudfront.net
-DOMAIN,dgeft87wbj63p.cloudfront.net
-DOMAIN,d1m7jfoe9zdc1j.cloudfront.net
-DOMAIN,d3aqoihi2n8ty8.cloudfront.net
 
 # Ntp服务
 # 国外
@@ -83,12 +71,6 @@ DOMAIN,time-ios.apple.com
 DOMAIN,time-macos.apple.com
 DOMAIN-SUFFIX,pool.ntp.org
 DOMAIN,time.nist.gov
-# 国内
-DOMAIN,time.pool.aliyun.com
-DOMAIN,ntp1.aliyun.com
-DOMAIN,ntp.aliyun.com
-DOMAIN,time1.cloud.tencent.com
-DOMAIN,time2.cloud.tencent.com
 
 # 邮箱服务
 DST-PORT,993
@@ -126,24 +108,11 @@ DOMAIN,pop.zoho.com
 DOMAIN,poppro.zoho.com
 
 # playstation CDN
-# ### https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 219 line
-DOMAIN,theia.dl.playstation.net
-DOMAIN,ps5.np.playstation.net
-DOMAIN,vulcan.dl.playstation.net
-DOMAIN,manuals.playstation.net
-DOMAIN,ares.dl.playstation.net
-DOMAIN,ena.net.playstation.net
-DOMAIN,zeus.dl.playstation.net
-DOMAIN,gs2.ww.prod.dl.playstation.net
-DOMAIN,nsx.sec.np.dl.playstation.net
-DOMAIN,poseidon.dl.playstation.net
-# DOMAIN,image-ps4.api.playstation.com
+# ### https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 219 line 未使用
 
 # 国内服务强制全球直连
-DOMAIN-SUFFIX,bjhkbl.com
 DOMAIN-SUFFIX,bokecc.com
 DOMAIN-SUFFIX,mpyit.com
-DOMAIN-SUFFIX,global-idc.net
 DOMAIN-SUFFIX,ipip.net
 
 # ACL4SSR 强制直连列表 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
@@ -162,20 +131,18 @@ DOMAIN,analytics.strava.com
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
 # Miui 小米
-DOMAIN,tracking.miui.com
+# DOMAIN,tracking.miui.com
 # General
 DOMAIN,app.adjust.com
 DOMAIN,bdtj.tagtic.cn
 
 # 服务器强制直连
 DOMAIN-SUFFIX,checkmails.xyz
-DOMAIN-SUFFIX,secureencryptedvirtualization.com
 DOMAIN-SUFFIX,hxlm.cc
 DOMAIN-SUFFIX,uuuglass.co
 DOMAIN-SUFFIX,25u.com
 DOMAIN-SUFFIX,iqdnsio.co
 DOMAIN-SUFFIX,iqiq.io
-DOMAIN-SUFFIX,7h7.xyz
 DOMAIN-SUFFIX,immtel.co
 DOMAIN-SUFFIX,nxtlnodes.com
 DOMAIN-SUFFIX,china-cdn-net.com
