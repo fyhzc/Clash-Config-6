@@ -169,11 +169,7 @@ DOMAIN-SUFFIX,gog.com
 DOMAIN-SUFFIX,warframe.com
 
 # R星游戏
-DOMAIN-SUFFIX,rockstargames.com
-DOMAIN,gamedownloads-rockstargames-com.akamaized.net
-DOMAIN-SUFFIX,gamedownloads-rockstargames-com.akamaized.net
-DOMAIN-SUFFIX,media-rockstargames-com.akamaized.net
-DOMAIN-SUFFIX,videos-rockstargames-com.akamaized.net
+DOMAIN-KEYWORD,rockstargames
 
 # 暴雪战网
 DOMAIN-SUFFIX,battle.net
@@ -231,49 +227,9 @@ DOMAIN-SUFFIX,battlefield.com
 DOMAIN-SUFFIX,eidos.com
 DOMAIN-SUFFIX,square-enix-games.com
 # 拳头游戏 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/riot
-DOMAIN-SUFFIX,historyofdota.com
-DOMAIN-SUFFIX,historyofdota.net
-DOMAIN-SUFFIX,historyofdota.org
-DOMAIN-SUFFIX,instituteofwar.org
-DOMAIN-SUFFIX,molesports.com
-DOMAIN-SUFFIX,rgpub.io
-DOMAIN-SUFFIX,riot-games.com
-DOMAIN-SUFFIX,riot.com
-DOMAIN-SUFFIX,riot.net
-DOMAIN-SUFFIX,riotcdn.net
 DOMAIN-KEYWORD,riotgames
-DOMAIN-SUFFIX,riotpin.com
-DOMAIN-SUFFIX,riotpoints.com
-DOMAIN-SUFFIX,rstatic.net
-DOMAIN-SUFFIX,supremacy.com
-DOMAIN-SUFFIX,supremacy.net
-# League of Lengends
-DOMAIN-SUFFIX,championshipseriesleague.com
-DOMAIN-SUFFIX,lcsmerch.com
-DOMAIN-SUFFIX,leaguehighschool.com
 DOMAIN-KEYWORD,leagueoflegends
-DOMAIN-SUFFIX,leaguesharp.info
-DOMAIN-SUFFIX,learnwithleague.com
-DOMAIN-SUFFIX,lol-europe.com
-DOMAIN-SUFFIX,lolclub.org
-DOMAIN-SUFFIX,lolespor.com
-DOMAIN-SUFFIX,lolesports.com
-DOMAIN-SUFFIX,lolfanart.net
-DOMAIN-SUFFIX,lolpcs.com
-DOMAIN-SUFFIX,lolshop.co.kr
-DOMAIN-SUFFIX,lolstatic.com
-DOMAIN-SUFFIX,lolusercontent.com
-DOMAIN-SUFFIX,pvp.net
-DOMAIN-SUFFIX,pvp.tv
-DOMAIN-SUFFIX,ulol.com
-DOMAIN-SUFFIX,lolstatic-a.akamaihd.net
-# Valorant
-DOMAIN-SUFFIX,playvalorant.com
-# Riot Forge
-DOMAIN-SUFFIX,riotforgegames.com
-DOMAIN-SUFFIX,ruinedking.com
-DOMAIN-SUFFIX,convrgencegame.com
+DOMAIN-KEYWORD,playvalorant
 
 # 我的世界
-DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,minecraft.net
