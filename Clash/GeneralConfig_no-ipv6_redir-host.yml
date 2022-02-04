@@ -126,7 +126,6 @@ dns:
     - time.apple.com
     - time-ios.apple.com
     - time-macos.apple.com
-    - "*.ntp.org.cn"
     - "*.pool.ntp.org"
     - time1.cloud.tencent.com
     - time2.cloud.tencent.com
@@ -138,12 +137,6 @@ dns:
     - ntp2.aliyun.com
     - time1.aliyun.com
     - time2.aliyun.com
-    - "*.time.edu.cn"
-    - time.google.com
-    - time1.google.com
-    - time2.google.com
-    - time3.google.com
-    - time4.google.com
     - music.163.com
     - "*.music.163.com"
     - "*.126.net"
@@ -164,10 +157,6 @@ dns:
     - dl.stream.qqmusic.qq.com
     - aqqmusic.tc.qq.com
     - amobile.music.tc.qq.com
-    - "*.music.migu.cn"
-    - music.migu.cn
-    - "*.msftconnecttest.com"
-    - "*.msftncsi.com"
     - localhost.ptlogin2.qq.com
     - "*.*.*.srv.nintendo.net"
     - "*.*.stun.playstation.net"
@@ -175,9 +164,14 @@ dns:
     - "*.ipv6.microsoft.com"
     - "*.*.xboxlive.com"
     - speedtest.cros.wr.pvp.net
-    - '*.battlenet.com.cn'
-    - '*.blzstatic.cn'
-    - '*.battle.net'
+    - "*.battle.net"
+    - "*.*.*.*.*.*.*.cn"
+    - "*.*.*.*.*.*.cn"
+    - "*.*.*.*.*.cn"
+    - "*.*.*.*.cn"
+    - "*.*.*.cn"
+    - "*.*.cn"
+    - "*.cn"
   nameserver:
     - 'https://doh.360.cn/dns-query'
     - 'https://doh.pub/dns-query'
@@ -190,7 +184,7 @@ dns:
     geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
-      - 0.0.0.0/32
+#      - 0.0.0.0/32
       - 127.0.0.0/8
       - 0.0.0.0/8
 #      - 10.0.0.0/8
