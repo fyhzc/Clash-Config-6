@@ -61,9 +61,9 @@ experimental:
 #hosts:
 #   '*.clash.dev': 127.0.0.1
 #   'alpha.clash.dev': '::1'
-hosts:
-  securelogin.arubanetworks.com: 10.253.1.28
-  ayxy.pheicloud.com: 10.253.1.11
+#hosts:
+#  securelogin.arubanetworks.com: 10.253.1.28
+#  XX.pheicloud.com: 10.253.1.11
 
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
