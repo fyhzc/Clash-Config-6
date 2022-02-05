@@ -1,0 +1,9 @@
+# Whatsapp IP 
+# AS11917
+# https://bgp.he.net/AS11917#_prefixes
+
+IP-CIDR,66.111.48.0/22,no-resolve
+IP-CIDR,66.111.48.0/24,no-resolve
+IP-CIDR,66.111.49.0/24,no-resolve
+IP-CIDR,66.111.50.0/24,no-resolve
+IP-CIDR,66.111.51.0/24,no-resolve
