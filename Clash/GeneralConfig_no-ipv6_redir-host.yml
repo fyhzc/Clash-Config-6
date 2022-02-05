@@ -158,7 +158,7 @@ dns:
     - "*.cn"
   nameserver:
     - 'https://doh.360.cn/dns-query'
-    - 'https://doh.pub/dns-query'
+    - 'https://dns.alidns.com/dns-query'
   fallback:
 #    - 'https://public.dns.iij.jp/dns-query'
     - 'https://doh.opendns.com/dns-query'
