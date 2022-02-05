@@ -1,8 +1,4 @@
-# 中国国内常见域名关键词直连
-DOMAIN-KEYWORD,360buy
-DOMAIN-KEYWORD,alicdn
-DOMAIN-KEYWORD,alipay
-DOMAIN-KEYWORD,baidupcs
+# 中国国内常见域名关键词 直连
 DOMAIN-KEYWORD,kaishustory
 
 # 中移
@@ -64,23 +60,47 @@ DOMAIN-SUFFIX,laiwang.com
 # 金融服务
 DOMAIN-SUFFIX,paypal.com
 
+# 银联
 DOMAIN-KEYWORD,unionpay
 
+# VISA
 DOMAIN-SUFFIX,visa.com
 DOMAIN-SUFFIX,visa.co
 
+# 中信银行
 DOMAIN-KEYWORD,citicbank
 DOMAIN-SUFFIX,ecitic.com
 DOMAIN-SUFFIX,cncbinternational.com
 
+# 交通银行
 DOMAIN-KEYWORD,bankcomm
 
+# 中国建设银行
 DOMAIN-SUFFIX,ccb.com
 DOMAIN-KEYWORD,ccbhome
 
+# 工商银行
 DOMAIN-SUFFIX,icbc-ltd.com
 DOMAIN-SUFFIX,icbc.com
 DOMAIN-KEYWORD,icbcstandard
+
+# 邮政储蓄
+DOMAIN-SUFFIX,psbc.com
+
+# 光大银行
+DOMAIN-SUFFIX,cebbank.com
+
+# 农业银行
+DOMAIN-SUFFIX,abchina.com
+
+# 中国银行
+DOMAIN-KEYWORD,bankofchina
+
+# 广发银行
+DOMAIN-KEYWORD,cgbchina
+
+# 招商银行
+DOMAIN-KEYWORD,cmbchina
 
 # jd
 DOMAIN-KEYWORD,jdpay
