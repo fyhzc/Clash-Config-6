@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,hezhisw.com
 
 # easyprivacy
+# Ali
 DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,beacon-api.aliyuncs.com
 DOMAIN-SUFFIX,adash.man.aliyuncs.com
@@ -57,9 +58,9 @@ DOMAIN-SUFFIX,dataflow.biliapi.com
 # DOMAIN-SUFFIX,cm.bilibili.com
 # DOMAIN-SUFFIX,live-trace.bilibili.com
 
-DOMAIN-SUFFIX,mars.jd.com
-DOMAIN-SUFFIX,blackhole.m.jd.com
-DOMAIN-SUFFIX,policy.jd.com
+# DOMAIN-SUFFIX,mars.jd.com
+# DOMAIN-SUFFIX,blackhole.m.jd.com
+# DOMAIN-SUFFIX,policy.jd.com
 DOMAIN-SUFFIX,ads-union.jd.com
 
 DOMAIN-SUFFIX,c.sayhi.360.cn
