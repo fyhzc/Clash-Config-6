@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,px.ucweb.com
 DOMAIN-SUFFIX,collect.alipay.com
 
-
+# 腾讯
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,cfg.imtt.qq.com
@@ -40,6 +40,8 @@ DOMAIN-SUFFIX,analytics.google.com
 
 # Baidu
 DOMAIN-SUFFIX,fclog.baidu.com
+# --- beta --- 百度福利推广、百度app强制推送
+DOMAIN,eopa.baidu.com
 
 DOMAIN-SUFFIX,cloudflareinsights.com
 
