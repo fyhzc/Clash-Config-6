@@ -54,8 +54,8 @@ DOMAIN-SUFFIX,is.snssdk.com
 
 DOMAIN-SUFFIX,line1-log.biligame.net
 DOMAIN-SUFFIX,dataflow.biliapi.com
-DOMAIN-SUFFIX,cm.bilibili.com
-DOMAIN-SUFFIX,live-trace.bilibili.com
+# DOMAIN-SUFFIX,cm.bilibili.com
+# DOMAIN-SUFFIX,live-trace.bilibili.com
 
 DOMAIN-SUFFIX,mars.jd.com
 DOMAIN-SUFFIX,blackhole.m.jd.com
