@@ -48,8 +48,6 @@ DOMAIN,ada.baidu.com
 DOMAIN,ext.baidu.com
 DOMAIN,entry.baidu.com
 DOMAIN,ug.baidu.com
-# --- beta --- 百度app跳转 JS文件
-DOMAIN,mbd.baidu.com
 
 DOMAIN-SUFFIX,cloudflareinsights.com
 
