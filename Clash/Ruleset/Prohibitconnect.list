@@ -40,8 +40,17 @@ DOMAIN-SUFFIX,analytics.google.com
 
 # Baidu
 DOMAIN-SUFFIX,fclog.baidu.com
-# --- beta --- 百度福利推广、百度app强制推送
+# --- beta --- 百度福利推广、百度app跳转
 DOMAIN,eopa.baidu.com
+DOMAIN,boxer.baidu.com
+DOMAIN,miao.baidu.com
+DOMAIN,ada.baidu.com
+DOMAIN,ext.baidu.com
+DOMAIN,entry.baidu.com
+DOMAIN,ug.baidu.com
+DOMAIN,eopa.baidu.com
+# --- beta --- 百度app跳转 JS文件
+DOMAIN,mbd.baidu.com
 
 DOMAIN-SUFFIX,cloudflareinsights.com
 
