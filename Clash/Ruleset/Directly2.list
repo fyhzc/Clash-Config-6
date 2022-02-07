@@ -139,6 +139,9 @@ DOMAIN-SUFFIX,smtp
 PROCESS-NAME,DownloadService.exe
 PROCESS-NAME,Folx.exe
 PROCESS-NAME,NetTransport.exe
+PROCESS-NAME,com.xunlei.downloadprovider
+PROCESS-NAME,DownloadSDKServer.exe
+PROCESS-NAME,Thunder
 PROCESS-NAME,Thunder.exe
 PROCESS-NAME,Transmission.exe
 PROCESS-NAME,WebTorrent Helper.exe
@@ -146,7 +149,6 @@ PROCESS-NAME,WebTorrent.exe
 PROCESS-NAME,Weiyun.exe
 PROCESS-NAME,aria2c.exe
 PROCESS-NAME,baidunetdisk.exe
-PROCESS-NAME,fdm.exe
 PROCESS-NAME,uTorrent.exe
 URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
