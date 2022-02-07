@@ -2,3 +2,6 @@
 DOMAIN-SUFFIX,us
 # 加拿大
 DOMAIN-SUFFIX,ca
+
+# 以下内容必须有完整GeoIP数据库时才能启用，否则可能会出现未知错误
+# GEOIP,US
