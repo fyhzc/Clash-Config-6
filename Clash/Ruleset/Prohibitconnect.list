@@ -4,14 +4,14 @@
 # IP-CIDR,8.8.8.8/32,no-resolve
 
 # --- beta ---腾讯云 移动解析 HTTPDNS
-IP-CIDR,119.29.29.98/32,no-resolve
+#IP-CIDR,119.29.29.98/32,no-resolve
 
 # --- beta ---baidu云 移动解析 HTTPDNS
-DOMAIN,httpdns.baidubce.com
-IP-CIDR,180.76.76.200/32,no-resolve
+#DOMAIN,httpdns.baidubce.com
+#IP-CIDR,180.76.76.200/32,no-resolve
 
 # --- beta ---ali云 移动解析 HTTPDNS
-DOMAIN,httpdns-api.aliyuncs.com
+#DOMAIN,httpdns-api.aliyuncs.com
 
 # 屏蔽内容农场
 DOMAIN-SUFFIX,kknews.cc
