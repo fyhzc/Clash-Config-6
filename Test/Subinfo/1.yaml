@@ -1,0 +1,30 @@
+proxies:
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 01 1Gbps HBO TVB", server: hk01.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 02 1Gbps HBO TVB", server: hk02.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 03 1Gbps HBO TVB", server: hk03.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 04 1Gbps HBO TVB", server: hk04.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 05 1Gbps HBO TVB", server: hk05.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 06 1Gbps HBO TVB", server: hk06.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 07 1Gbps HBO TVB", server: hk07.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 08 1Gbps HBO TVB", server: hk08.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 09 1Gbps HBO TVB", server: hk09.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 10 1Gbps HBO TVB", server: hk10.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 01 1Gbps HBO TVB", server: sg01.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 02 1Gbps HBO TVB", server: sg02.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 03 1Gbps HBO TVB", server: sg03.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 04 1Gbps HBO TVB", server: sg04.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 05 1Gbps HBO TVB", server: sg05.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 06 1Gbps HBO TVB", server: sg06.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 07 1Gbps HBO TVB", server: sg07.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 08 1Gbps HBO TVB", server: sg08.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 09 1Gbps HBO TVB", server: sg09.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 10 1Gbps HBO TVB", server: sg10.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 11 1Gbps HBO TVB", server: sg11.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 中国-香港 IPLC Equinix HK2 D 12 1Gbps HBO TVB", server: sg12.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D01", server: hkt01.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D02", server: hkt02.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D03", server: hkt03.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D04", server: hkt04.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D05", server: hkt05.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D06", server: hkt06.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "[SS] 🇭🇰 香港 油尖旺御金·国峯 網上行寬頻 D07", server: hkt07.testcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
