@@ -67,7 +67,8 @@ log-level: warning
 hosts:
    'securelogin.arubanetworks.com': 10.253.1.28
    'ayxy.pheicloud.com': 10.253.1.11
-
+   'router.adminlogin-openwrt.com': 172.18.210.253
+   
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
   # set false If you don't want this behavior
