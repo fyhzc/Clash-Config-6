@@ -123,17 +123,14 @@ dns:
     - "www.msftconnecttest.com"
     - stun.*.*.*
     - stun.*.*
-    - time.windows.com
-    - time.cloudflare.com
     - time.nist.gov
-    - time.apple.com
+    - "time.*.com"
     - time-ios.apple.com
     - time-macos.apple.com
     - "*.pool.ntp.org"
     - pool.ntp.org
     - "*.cloud.tencent.com"
-    - "*.ubuntu.com"
-    - "*.aliyun.com"
+    - "ntp.*.com"
     - "*.163.com"
     - "*.126.net"
     - "*.taihe.com"
