@@ -119,7 +119,7 @@ dns:
   fake-ip-filter:
     # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Subconverter-base/all-base.tpl
     # === LAN ===
-    - "*.lan"
+    - '*.lan'
     # === Windows 10 Connnect Detection ===
     - '*.ipv6.microsoft.com'
     - '*.msftconnecttest.com'
@@ -132,27 +132,26 @@ dns:
     - time-macos.apple.com
     - 'time.*.com'
     - 'time.*.gov'
-    - '*.ntp.org.cn'
     - '+.pool.ntp.org'
-    - "*.cloud.tencent.com"
-    - "*.pool.ntp.org"
+    - '*.cloud.tencent.com'
+    - '*.pool.ntp.org'
     - pool.ntp.org
     ## === 国内网站 ===
-    - "*.163.com"
-    - "*.126.net"
-    - "*.taihe.com"
-    - "*.kugou.com"
-    - "*.joox.com"
+    - '*.163.com'
+    - '*.126.net'
+    - '*.taihe.com'
+    - '*.kugou.com'
+    - '*.joox.com'
     - joox.com
-    - "*.*.*.*.qq.com"
-    - "*.*.*.qq.com"
-    - "*.*.qq.com"
-    - "*.qq.com"
-    - "*.*.*.*.*.cn"
-    - "*.*.*.*.cn"
-    - "*.*.*.cn"
-    - "*.*.cn"
-    - "*.cn"
+    - '*.*.*.*.qq.com'
+    - '*.*.*.qq.com'
+    - '*.*.qq.com'
+    - '*.qq.com'
+    - '*.*.*.*.*.cn'
+    - '*.*.*.*.cn'
+    - '*.*.*.cn'
+    - '*.*.cn'
+    - '*.cn'
     # === Apple Software Update Service ===
     - 'mesu.apple.com'
     - 'swscan.apple.com'
@@ -169,7 +168,6 @@ dns:
     - '+.srv.nintendo.net'
     ## Sony PlayStation
     - '*.*.stun.playstation.net'
-    - '+.stun.playstation.net'
     ## STUN Server
     - '+.stun.*.*.*.*'
     - '+.stun.*.*.*'
