@@ -5,16 +5,11 @@
 
 # B站 MCDN beta
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-SUFFIX,szbdyd.com
 
-# --- beta ---腾讯云 移动解析 HTTPDNS
-#IP-CIDR,119.29.29.98/32,no-resolve
-
-# --- beta ---baidu云 移动解析 HTTPDNS
-#DOMAIN,httpdns.baidubce.com
-#IP-CIDR,180.76.76.200/32,no-resolve
-
-# --- beta ---ali云 移动解析 HTTPDNS
-#DOMAIN,httpdns-api.aliyuncs.com
+# beta
+# Safari 网址安全检查
+DOMAIN,safebrowsing.urlsec.qq.com
 
 # 屏蔽内容农场
 DOMAIN-SUFFIX,kknews.cc
@@ -124,12 +119,6 @@ DOMAIN,api.miwifi.com
 
 DOMAIN,all-c-master-tutk.iotcplatform.com
 
-# 假冒 firefox浏览器
-DOMAIN-SUFFIX,firefox.com.cn
-
-# 流氓重橙
-DOMAIN-SUFFIX,flash.cn
-
 # 流氓大王2345
 DOMAIN,dl.2345.com
 DOMAIN-SUFFIX,2345.com
@@ -193,16 +182,3 @@ DOMAIN-SUFFIX,gj.qq.com
 
 # 屏蔽idm注册
 DOMAIN-SUFFIX,registeridm.com
-
-# 屏蔽低智商网站
-DOMAIN-KEYWORD,epochtimes
-DOMAIN-SUFFIX,dajiyuan.eu
-DOMAIN-SUFFIX,epochstories.com
-DOMAIN-SUFFIX,ninecommentaries.com
-DOMAIN-SUFFIX,ntdtv.com
-DOMAIN-SUFFIX,voanews.com
-DOMAIN-SUFFIX,falundafa.org
-DOMAIN-SUFFIX,dalailama.com
-DOMAIN-SUFFIX,freetibet.org
-DOMAIN-SUFFIX,tibet.net
-DOMAIN-SUFFIX,dongtaiwang.com
