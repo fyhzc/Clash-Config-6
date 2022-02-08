@@ -4,6 +4,11 @@ DOMAIN-KEYWORD,kaishustory
 # ip.skk.moe 纯真数据库API
 DOMAIN,qqwry.api.skk.moe
 
+# 
+DOMAIN-SUFFIX,bokecc.com
+# DOMAIN-SUFFIX,mpyit.com
+DOMAIN-SUFFIX,ipip.net
+
 # 中移
 DOMAIN-SUFFIX,139.com
 DOMAIN-SUFFIX,cmpassport.com
