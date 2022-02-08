@@ -10,6 +10,9 @@ DOMAIN-SUFFIX,mcdn.bilivideo.cn
 # Yk Pcdn
 DOMAIN,pgw-cld-ml.alicdn.com
 
+# tenvideo
+# firewall ban udp
+
 # beta
 # Safari 网址安全检查
 DOMAIN,safebrowsing.urlsec.qq.com
