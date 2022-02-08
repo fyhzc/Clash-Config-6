@@ -5,6 +5,8 @@
 
 # B站 MCDN beta
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN,ali-bj-pcdn-14.biliapi.net
+# 
 DOMAIN,web-player-tracker.biliapi.net
 # DOMAIN-SUFFIX,szbdyd.com
 
