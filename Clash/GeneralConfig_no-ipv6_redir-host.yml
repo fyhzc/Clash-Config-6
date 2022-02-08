@@ -234,12 +234,12 @@ dns:
       - '+.playstation.com'
       #- '+.playstation.net'
       # App Store
-      - '+.mzstatic.com'
-      - 'itunes.apple.com'
-      - '+.itunes.apple.com'
-      - '+.phobos.apple.com'
-      - '+.aaplimg.com'
-      - 'apps.apple.com'
+      #- '+.mzstatic.com'
+      #- 'itunes.apple.com'
+      #- '+.itunes.apple.com'
+      #- '+.phobos.apple.com'
+      #- '+.aaplimg.com'
+      #- 'apps.apple.com'
 #  Apple TV https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list
 # 太慢     - https://1.0.0.1/dns-query
 # https://azure.cloudflare-dns.com/dns-query
