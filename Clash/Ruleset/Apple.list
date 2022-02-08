@@ -14,6 +14,7 @@ DOMAIN,captive.apple.com
 DOMAIN,doh.dns.apple.com
 DOMAIN,doh.dns.apple.com.v.aaplimg.com
 
+# beta
 # App Store
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 225-229 237-242 lines
 # DOMAIN-SUFFIX,mzstatic.com
