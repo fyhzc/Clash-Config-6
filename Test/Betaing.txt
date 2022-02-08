@@ -1,4 +1,10 @@
 正在测试的项目：
 1.App Store海外解析连接质量测试。
-2.B站PCDN屏蔽测试
+2.B站PCDN屏蔽测试，连接质量测试。
 3.Safari 网址安全检查屏蔽测试
+4.steam 游戏平台国内CDN列表已停用，根据geoip分流
+5.epic 国内cdn已停用，根据geoip分流
+6.cdn-apple.com已停用，根据geoip分流
+7.微软国内CDN已停用，根据geoip分流
+8.twitch(老鼠台)直播视频流直连，连接质量测试。
+9.gm.mmstat.com已屏蔽，研究其对验证码加载的影响。
