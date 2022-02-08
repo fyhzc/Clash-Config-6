@@ -5,6 +5,10 @@
 
 # B站 MCDN beta
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
+# DOMAIN-SUFFIX,szbdyd.com
+
+# Yk
+DOMAIN,pgw-cld-ml.alicdn.com
 
 # beta
 # Safari 网址安全检查
