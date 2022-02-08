@@ -1,6 +1,31 @@
 # Always reject list
-DOMAIN,r5gyry5e6vetgrgfr455.tv
+# DOMAIN,r5gyry5e6vetgrgfr455.tv
 
-# beta
-# Safari 网址安全检查
-DOMAIN,safebrowsing.urlsec.qq.com
+# --- beta ---腾讯云 移动解析 HTTPDNS
+#IP-CIDR,119.29.29.98/32,no-resolve
+
+# --- beta ---baidu云 移动解析 HTTPDNS
+#DOMAIN,httpdns.baidubce.com
+#IP-CIDR,180.76.76.200/32,no-resolve
+
+# --- beta ---ali云 移动解析 HTTPDNS
+#DOMAIN,httpdns-api.aliyuncs.com
+
+# 屏蔽低智商网站
+DOMAIN-KEYWORD,epochtimes
+DOMAIN-SUFFIX,dajiyuan.eu
+DOMAIN-SUFFIX,epochstories.com
+DOMAIN-SUFFIX,ninecommentaries.com
+DOMAIN-SUFFIX,ntdtv.com
+DOMAIN-SUFFIX,voanews.com
+DOMAIN-SUFFIX,falundafa.org
+DOMAIN-SUFFIX,dalailama.com
+DOMAIN-SUFFIX,freetibet.org
+DOMAIN-SUFFIX,tibet.net
+DOMAIN-SUFFIX,dongtaiwang.com
+
+# 假冒 firefox浏览器
+DOMAIN-SUFFIX,firefox.com.cn
+
+# 流氓重橙
+DOMAIN-SUFFIX,flash.cn
