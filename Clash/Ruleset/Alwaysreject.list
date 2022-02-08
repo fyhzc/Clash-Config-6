@@ -1,16 +1,6 @@
 # Always reject list
 # DOMAIN,r5gyry5e6vetgrgfr455.tv
 
-# --- beta ---腾讯云 移动解析 HTTPDNS
-#IP-CIDR,119.29.29.98/32,no-resolve
-
-# --- beta ---baidu云 移动解析 HTTPDNS
-#DOMAIN,httpdns.baidubce.com
-#IP-CIDR,180.76.76.200/32,no-resolve
-
-# --- beta ---ali云 移动解析 HTTPDNS
-#DOMAIN,httpdns-api.aliyuncs.com
-
 # 屏蔽低智商网站
 DOMAIN-KEYWORD,epochtimes
 DOMAIN-SUFFIX,dajiyuan.eu
