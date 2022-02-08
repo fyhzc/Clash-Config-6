@@ -34,7 +34,7 @@ DOMAIN,xz.pphimalayanrt.com
 DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
 
 # 微软国内CDN
-DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+# DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN,download.microsoft.com
 DOMAIN,download.windowsupdate.com
 DOMAIN,officecdn.microsoft.com
