@@ -3,6 +3,9 @@
 # DOMAIN-SUFFIX,6g4f6refghiuer.com
 # IP-CIDR,8.8.8.8/32,no-resolve
 
+# B站 MCDN beta
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+
 # --- beta ---腾讯云 移动解析 HTTPDNS
 #IP-CIDR,119.29.29.98/32,no-resolve
 
