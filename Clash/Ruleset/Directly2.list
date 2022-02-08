@@ -1,6 +1,9 @@
 # 中国国内常见域名关键词 直连
 DOMAIN-KEYWORD,kaishustory
 
+# 错误修正
+DOMAIN,qqwry.api.skk.moe
+
 # 中移
 DOMAIN-SUFFIX,139.com
 DOMAIN-SUFFIX,cmpassport.com
