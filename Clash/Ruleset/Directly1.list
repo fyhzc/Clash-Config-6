@@ -46,7 +46,7 @@ DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
 # 参考 https://support.apple.com/zh-cn/HT203609
 # 避免走代理以防止节点单点故障造成无法接收推送
 # DOMAIN-SUFFIX,push-apple.com.akadns.net
-DOMAIN-SUFFIX,push.apple.com
+# DOMAIN-SUFFIX,push.apple.com
 IP-CIDR,17.249.0.0/16
 IP-CIDR,17.252.0.0/16
 IP-CIDR,17.57.144.0/22
