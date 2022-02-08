@@ -191,12 +191,15 @@ DOMAIN-SUFFIX,gj.qq.com
 # 屏蔽idm注册
 DOMAIN-SUFFIX,registeridm.com
 
-# 屏蔽不良网站
-DOMAIN-SUFFIX,epochtimes.com
-DOMAIN-SUFFIX,epochtimes.today
-DOMAIN-SUFFIX,epochtimes.com.tw
+# 屏蔽低智商网站
+DOMAIN-KEYWORD,epochtimes
 DOMAIN-SUFFIX,dajiyuan.eu
 DOMAIN-SUFFIX,epochstories.com
-DOMAIN-SUFFIX,theepochtimes.com
 DOMAIN-SUFFIX,ninecommentaries.com
 DOMAIN-SUFFIX,ntdtv.com
+DOMAIN-SUFFIX,voanews.com
+DOMAIN-SUFFIX,falundafa.org
+DOMAIN-SUFFIX,dalailama.com
+DOMAIN-SUFFIX,freetibet.org
+DOMAIN-SUFFIX,tibet.net
+DOMAIN-SUFFIX,dongtaiwang.com
