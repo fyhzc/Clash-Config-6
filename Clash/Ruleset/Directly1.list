@@ -45,6 +45,7 @@ DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
 # Apple 推送通知服务 (APNs) 发布日期： 2020 年 12 月 08 日
 # 参考 https://support.apple.com/zh-cn/HT203609
 # 避免走代理以防止节点单点故障造成无法接收推送
+DOMAIN-SUFFIX,push-apple.com.akadns.net
 DOMAIN-SUFFIX,push.apple.com
 IP-CIDR,17.249.0.0/16,no-resolve
 IP-CIDR,17.252.0.0/16,no-resolve
