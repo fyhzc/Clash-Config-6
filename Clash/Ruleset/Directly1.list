@@ -114,7 +114,7 @@ DOMAIN-SUFFIX,mail.me.com
 # playstation CDN
 # ### https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 219 line 未使用
 
-# ACL4SSR 强制直连列表 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+# ACL4SSR Unbreak 白名单 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 # Getui地震速报
 DOMAIN-SUFFIX,dizhensubao.getui.com
 # Origin
