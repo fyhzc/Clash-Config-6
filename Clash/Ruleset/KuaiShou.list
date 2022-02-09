@@ -1,3 +1,15 @@
+# 快手短视频地址
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 参考来源
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Kuaishou.list
+# https://raw.githubusercontent.com/LM-Firefly/Rules/master/Domestic-Services/KuaiShou.list
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,inkuai.com
 DOMAIN-SUFFIX,ksapisrv.com
