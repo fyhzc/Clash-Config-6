@@ -1,18 +1,28 @@
-# 全球链接
-# 顶级域
+# 仅使用欧盟境内服务器连接的地址
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 欧盟顶级域
 # 欧洲联盟
 DOMAIN-SUFFIX,eu
-# 英国
+# 西欧-英国 GBR
 DOMAIN-SUFFIX,uk
-# 法国
+# 西欧-法国 FRA
 DOMAIN-SUFFIX,fr
-# 德国
+# 中欧-德国 DEU
 DOMAIN-SUFFIX,de
-# 俄罗斯
+# 欧洲-亚洲-俄罗斯 RUS
 DOMAIN-SUFFIX,ru
-# 波兰
+# 中欧-波兰 POL
 DOMAIN-SUFFIX,pl
-# 荷兰
+# 西北-荷兰 NLD
 DOMAIN-SUFFIX,nl
-# 西班牙
+# 西南-西班牙 ESP
 DOMAIN-SUFFIX,es
+# 北欧-丹麦 DNK
+DOMAIN-SUFFIX,dk
