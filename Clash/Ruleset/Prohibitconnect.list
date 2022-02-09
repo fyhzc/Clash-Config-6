@@ -51,7 +51,7 @@ DOMAIN,web-player-tracker.biliapi.net
 # Yk Pcdn beta
 DOMAIN,pgw-cld-ml.alicdn.com
 
-# ali httpdns ip 203.107.1.0/24
+# ali httpdns ip 203.107.1.0/24,no-resolve
 
 # tenvideo、iqiyi
 # firewall ban udp
