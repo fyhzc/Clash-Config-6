@@ -1,14 +1,16 @@
-# 服务
-# 强制使用节点选择
-# 验证码
-DOMAIN-SUFFIX,hcaptcha.com
+# 使用节点选择连接的地址
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
 
 # 加速
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,synology.com
-
-DOMAIN-SUFFIX,1password.com
 
 # 补充代理
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 208 line
@@ -18,7 +20,7 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-KEYWORD,yahoo
 DOMAIN-SUFFIX,yimg.com
 
-# firefox 浏览器
+# Mozilla Firefox
 DOMAIN-SUFFIX,mozilla.com
 DOMAIN-SUFFIX,mozilla.org
 DOMAIN-SUFFIX,mozilla.net
@@ -29,11 +31,13 @@ DOMAIN-SUFFIX,mozit.cloud
 
 # 国外域名关键字
 DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,1e100.net
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,twitter
+
+# 国外域名
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,1e100.net
