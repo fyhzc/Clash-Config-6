@@ -1,7 +1,19 @@
-#示例
-#DOMAIN-SUFFIX,4i3fjumcyt87ic4jtyi84rcfghiuer.com
-#IP-CIDR,8.8.8.8/32,no-resolve
+# 节点选择白名单（无屏蔽）
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
 
+# ACL4SSR Unbreak 白名单 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+# Epicgames
+DOMAIN-SUFFIX,ol.epicgames.com
+# Mozilla
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
+
+# Google CN 手机正常使用 Google Play 必备
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 199-202 lines
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN,www.gstatic.cn
@@ -9,21 +21,21 @@ DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,google.cn
 DOMAIN-SUFFIX,gvt1.com
 
-# Google China https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+# Google API https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 204-207 lines
 DOMAIN,translate.googleapis.com
 DOMAIN,safebrowsing-cache.google.com
-DOMAIN,safebrowsing.googleapis.com
 DOMAIN,clientservices.googleapis.com
+# MacOS/iOS 遇到大流量消耗请阻断
+DOMAIN,safebrowsing.googleapis.com
 
-# 国外dns服务器地址
+# 国外 DNS 服务器地址
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN,doh.applied-privacy.net
 DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,quad9.net
 DOMAIN-SUFFIX,dns.sb
 DOMAIN-SUFFIX,doh.sb
-DOMAIN,doh.cleanbrowsing.org
 DOMAIN,doh.opendns.com
 
 IP-CIDR,8.8.8.8/32
@@ -32,13 +44,10 @@ IP-CIDR,1.1.1.1/32
 IP-CIDR,1.0.0.1/32
 IP-CIDR,9.9.9.9/32
 
-# 微软连接测试
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
-# edge标签页
+# Edge 标签页
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 210 line
 DOMAIN-SUFFIX,msn.cn
-# edge同步
+# Edge 浏览器书签同步
 DOMAIN,activity.windows.com
 DOMAIN,edge-enterprise.activity.windows.com
 DOMAIN,edge.activity.windows.com
