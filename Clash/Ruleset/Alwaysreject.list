@@ -1,5 +1,5 @@
 # Always reject list
-# DOMAIN,r5gyry5e6vetgrgfr455.tv
+# 这个列表里的内容始终会被屏蔽
 
 # 屏蔽低智商网站
 DOMAIN-KEYWORD,epochtimes
