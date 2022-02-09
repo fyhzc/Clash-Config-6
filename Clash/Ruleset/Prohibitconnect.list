@@ -77,7 +77,7 @@ DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,umengacs.m.taobao.com
 DOMAIN-SUFFIX,amdcopen.m.taobao.com
 DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com
-DOMAIN-SUFFIX,aliapp.org
+# DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,px.ucweb.com
 DOMAIN-SUFFIX,collect.alipay.com
