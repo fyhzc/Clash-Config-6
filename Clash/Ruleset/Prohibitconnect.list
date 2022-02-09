@@ -1,4 +1,11 @@
-# 链接屏蔽规则
+# 禁止连接的地址
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
 
 # === beta ===
 # B站 MCDN（这个东西影响视频加载流畅度）
@@ -117,9 +124,11 @@ DOMAIN-SUFFIX,mon.snssdk.com
 # 
 DOMAIN-SUFFIX,is.snssdk.com
 
+# 哔哩哔哩
 DOMAIN-SUFFIX,line1-log.biligame.net
 DOMAIN-SUFFIX,dataflow.biliapi.com
 
+# 站点统计
 DOMAIN-SUFFIX,cnzz.net
 DOMAIN-SUFFIX,cnzz.com
 DOMAIN-SUFFIX,ulogs.umengcloud.com
@@ -223,7 +232,7 @@ DOMAIN-SUFFIX,glzip.com
 DOMAIN-SUFFIX,7654.com
 DOMAIN-SUFFIX,abckantu.com
 
-#
+# 展盟
 DOMAIN-SUFFIX,shzhanmeng.com
 
 # 流氓主页
