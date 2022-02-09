@@ -1,2 +1,5 @@
 # 新加坡分流
 DOMAIN-SUFFIX,sg
+
+# ip.skk.moe 纯真数据库API
+DOMAIN,qqwry.api.skk.moe
