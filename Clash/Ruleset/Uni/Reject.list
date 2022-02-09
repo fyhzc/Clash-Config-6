@@ -26,3 +26,6 @@ DOMAIN-SUFFIX,firefox.com.cn
 # 重橙
 DOMAIN-SUFFIX,flash.cn
 DOMAIN-SUFFIX,izhongcheng.cn
+
+# ------
+DST-PORT,65535
