@@ -9,8 +9,10 @@
 # IP-CIDR,223.5.5.5/32,no-resolve（单IP）
 # IP-CIDR6,2620:149:a44::/48
 
+# ！！！本规则仅用于改善连接性和玩一些非延迟敏感的游戏，专业加速请使用专业游戏加速器。！！！
+
 # 本人是游戏爱好者，纯自用！
-# 如果有任何问题，欢迎提出issues
+# 如果有问题，欢迎提出issues！
 
 # 游戏udp测试 UDP and TCP ports 3478
 DOMAIN,stun.syncthing.net
