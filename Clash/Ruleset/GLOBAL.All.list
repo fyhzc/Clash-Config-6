@@ -7,8 +7,9 @@
 # IP-CIDR,223.5.5.5/32,no-resolve（单IP）
 # IP-CIDR6,2620:149:a44::/48
 
-# 顶级域
-# 阿根廷
+# 阿根廷顶级域
 DOMAIN-SUFFIX,ar
-# 土耳其
+# 土耳其顶级域
 DOMAIN-SUFFIX,tr
+# 加拿大顶级域
+DOMAIN-SUFFIX,ca
