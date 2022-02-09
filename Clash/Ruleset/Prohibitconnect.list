@@ -43,14 +43,11 @@ DOMAIN,ali-bj-pcdn-37.biliapi.net
 DOMAIN,ali-bj-pcdn-38.biliapi.net
 DOMAIN,ali-bj-pcdn-39.biliapi.net
 DOMAIN,ali-bj-pcdn-40.biliapi.net
-# 
 DOMAIN,web-player-tracker.biliapi.net
 
 # === beta ===
 # Yk Pcdn
 DOMAIN,pgw-cld-ml.alicdn.com
-
-# ali httpdns ip 203.107.1.0/24,no-resolve
 
 # === beta ===
 # Safari 网址安全检查
