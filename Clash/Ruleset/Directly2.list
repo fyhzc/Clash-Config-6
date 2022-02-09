@@ -1,9 +1,17 @@
-# 中国国内常见域名关键词 直连
+# 直连白名单
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 常见域名关键词
 DOMAIN-KEYWORD,kaishustory
 
 # 
 DOMAIN-SUFFIX,bokecc.com
-# DOMAIN-SUFFIX,mpyit.com
 DOMAIN-SUFFIX,ipip.net
 
 # 中移
@@ -58,7 +66,7 @@ DOMAIN-SUFFIX,kgimg.com
 # 酷我音乐
 DOMAIN-SUFFIX,koowo.com
 
-# dingtalk
+# 钉钉
 DOMAIN-KEYWORD,dingtalk
 DOMAIN-SUFFIX,ddurl.to
 DOMAIN-SUFFIX,laiwang.com
@@ -108,12 +116,12 @@ DOMAIN-KEYWORD,cgbchina
 # 招商银行
 DOMAIN-KEYWORD,cmbchina
 
-# jd
+# 京东
 DOMAIN-KEYWORD,jdpay
 DOMAIN-KEYWORD,jdcloud
 DOMAIN-SUFFIX,jd.com
 
-# hw
+# 华为
 DOMAIN-SUFFIX,vmall.com
 DOMAIN-SUFFIX,harmonyos.com
 DOMAIN-SUFFIX,hicloud.com
@@ -122,7 +130,7 @@ DOMAIN-KEYWORD,dbankcloud
 DOMAIN-KEYWORD,dbankcdn
 DOMAIN-KEYWORD,huawei
 
-# mi
+# 小米
 DOMAIN-KEYWORD,xiaomi
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,miui.com
@@ -131,17 +139,14 @@ DOMAIN-SUFFIX,huami.com
 DOMAIN-SUFFIX,mipush.com
 DOMAIN-SUFFIX,duokan.com
 
-# 迅雷下载
+# 迅雷
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,xunlei.com
 
-# Anti-BT
+# P2P下载
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
-
-DOMAIN-SUFFIX,smtp
-
 PROCESS-NAME,DownloadService.exe
 PROCESS-NAME,Folx.exe
 PROCESS-NAME,NetTransport.exe
@@ -160,7 +165,10 @@ URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|fi
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 URL-REGEX,(Subject|HELO|SMTP)
 
-# dns服务
+# DNS 服务
 DOMAIN-SUFFIX,dot.pub
 DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,dns.pub
+
+# 邮箱发信
+DOMAIN-SUFFIX,smtp
