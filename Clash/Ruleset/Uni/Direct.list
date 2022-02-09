@@ -1,0 +1,108 @@
+# === 直连白名单（无屏蔽） ===
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# Apple 推送通知服务 (APNs) 
+# 发布日期： 2020 年 12 月 08 日
+# 参考 https://support.apple.com/zh-cn/HT203609
+# 直连以防止单点故障造成无法接收消息推送
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,push.apple.com
+IP-CIDR,17.249.0.0/16
+IP-CIDR,17.252.0.0/16
+IP-CIDR,17.57.144.0/22
+IP-CIDR,17.188.128.0/18
+IP-CIDR,17.188.20.0/23
+IP-CIDR6,2620:149:a44::/48
+IP-CIDR6,2403:300:a42::/48
+IP-CIDR6,2403:300:a51::/48
+IP-CIDR6,2a01:b740:a42::/48
+
+# twitch(老鼠台)直播视频流（省流用）
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN,static.twitchcdn.net
+
+# ACL4SSR Unbreak 白名单
+# 更新日期：2021年
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+# Getui地震速报
+DOMAIN-SUFFIX,dizhensubao.getui.com
+# Origin
+DOMAIN,xivanalysis.com
+DOMAIN,picanalysis.vivo.com.cn
+# Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+# Strava
+DOMAIN,analytics.strava.com
+# Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+# Miui 小米
+# DOMAIN,tracking.miui.com
+# General
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+
+# 2345天气
+DOMAIN,tianqi.2345.com
+DOMAIN,img1.2345.com
+DOMAIN-SUFFIX,2345tianqi.cn
+DOMAIN,tianqi-stream.2345cdn.net
+
+# === 特殊服务 ===
+# 邮箱服务端口
+DST-PORT,993
+DST-PORT,25
+DST-PORT,995
+DST-PORT,110
+DST-PORT,143
+DST-PORT,109
+DST-PORT,465
+DST-PORT,587
+# 邮箱发信
+DOMAIN-SUFFIX,smtp
+URL-REGEX,(Subject|HELO|SMTP)
+# 国外邮箱服务
+DOMAIN,outlook.office365.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.office365.com
+DOMAIN,imap-mail.outlook.com
+DOMAIN,pop-mail.outlook.com
+DOMAIN,smtp-mail.outlook.com
+
+DOMAIN,pop.gmail.com
+DOMAIN,smtp.gmail.com
+DOMAIN,imap.gmail.com
+
+DOMAIN-SUFFIX,mail.me.com
+DOMAIN-SUFFIX,mail.me.com
+
+# NTP（网络时间同步）服务
+DST-PORT,123
+DOMAIN,time.aliyun.com
+DOMAIN,ntp.aliyun.com
+DOMAIN,time.cloudflare.com
+DOMAIN,time.windows.com
+DOMAIN,time.apple.com
+DOMAIN,time-ios.apple.com
+DOMAIN,time-macos.apple.com
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN,time.nist.gov
+
+# DNS 服务
+DOMAIN-SUFFIX,dot.pub
+DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,dns.pub
+
+# DNS IP
+IP-CIDR,1.12.34.56/32
+IP-CIDR,223.5.5.5/32
+IP-CIDR,223.6.6.6/32
+IP-CIDR,119.29.29.29/32

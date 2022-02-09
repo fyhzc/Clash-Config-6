@@ -1,0 +1,28 @@
+# === 这个列表里的内容始终会被屏蔽 ===
+# 规则编写示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 屏蔽低智商网站
+DOMAIN-KEYWORD,epochtimes
+DOMAIN-SUFFIX,dajiyuan.eu
+DOMAIN-SUFFIX,epochstories.com
+DOMAIN-SUFFIX,ninecommentaries.com
+DOMAIN-SUFFIX,ntdtv.com
+DOMAIN-SUFFIX,voanews.com
+DOMAIN-SUFFIX,falundafa.org
+DOMAIN-SUFFIX,dalailama.com
+DOMAIN-SUFFIX,freetibet.org
+DOMAIN-SUFFIX,tibet.net
+DOMAIN-SUFFIX,dongtaiwang.com
+
+# 火狐（国内版）
+DOMAIN-SUFFIX,firefox.com.cn
+
+# 重橙
+DOMAIN-SUFFIX,flash.cn
+DOMAIN-SUFFIX,izhongcheng.cn
