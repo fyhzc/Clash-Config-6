@@ -133,7 +133,7 @@ DOMAIN,bdtj.tagtic.cn
 
 # 阿里云验证码加载
 # https://help.aliyun.com/document_detail/66596.html
-DOMAIN,ynuf.aliapp.org
+# DOMAIN-SUFFIX,ynuf.aliapp.org
 
 # 服务器强制直连
 DOMAIN-SUFFIX,checkmails.xyz
