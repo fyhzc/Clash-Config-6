@@ -1,40 +1,25 @@
+# 知名海外游戏平台服务器地址
 # 示例
-# DOMAIN,game.com
-# DOMAIN-SUFFIX,game.com
-# 本人是游戏爱好者，纯自用，尽可能全覆盖！
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 本人是游戏爱好者，纯自用！
 # 如果有任何问题，欢迎提出issues
 
-# udp测试 UDP and TCP ports 3478
+# 游戏udp测试 UDP and TCP ports 3478
 DOMAIN,stun.syncthing.net
 DOMAIN,stun.bige0.com
 DOMAIN,stun.stunprotocol.org
-DOMAIN,stun1.l.google.com
-DOMAIN,stun2.l.google.com
-DOMAIN,stun3.l.google.com
-DOMAIN,stun4.l.google.com
-DOMAIN,stun.ekiga.net
-DOMAIN,stun.ideasip.com
-DOMAIN,stun.schlund.de
-DOMAIN,stun.voiparound.com
-DOMAIN,stun.voipbuster.com
-DOMAIN,stun.voipstunt.com
-DOMAIN,stun.voxgratia.org
-DOMAIN,stun.services.mozilla.com
-DOMAIN,stun.xten.com
-DOMAIN,stun.sipgate.net
-DOMAIN,stun.counterpath.com
-DOMAIN,stun.1und1.de
-DOMAIN,stun.gmx.net
-DOMAIN,stun.callwithus.com
-DOMAIN,stun.counterpath.net
-DOMAIN,stun.internetcalls.com
-DOMAIN,numb.viagenie.ca
 DOMAIN-SUFFIX,stun.playstation.net
 DOMAIN-SUFFIX,srv.nintendo.net
 
 # 三大游戏机平台
-
-# Xbox 来自 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Xbox.list
+# Xbox
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Xbox.list
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xbox
 # 更新日期：2022年 2月 3日
 DOMAIN-SUFFIX,forzamotorsport.net
@@ -56,7 +41,8 @@ DOMAIN-KEYWORD,xboxlive
 DOMAIN-KEYWORD,xboxone
 DOMAIN-KEYWORD,xboxservice
 
-# Sony playstation 来自https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+# Sony playstation
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
 # 注意 ：https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 215-218 lines
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstationnetwork.com
@@ -64,7 +50,8 @@ DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 DOMAIN-SUFFIX,playstation.net
 
-# 任天堂 switch 参考 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nintendo
+# 任天堂 switch
+# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nintendo
 # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Nintendo.list
 DOMAIN-KEYWORD,nintendo
 DOMAIN-SUFFIX,e10127.a.akamaiedge.net
@@ -114,7 +101,9 @@ DOMAIN-SUFFIX,justdancenow.com
 # 威乐公司
 DOMAIN-SUFFIX,valve.net
 DOMAIN-SUFFIX,valvesoftware.com
-# Steam平台,参考 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list，9-16lines
+# Steam平台
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list，9-16lines
+# https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Steam.list
 DOMAIN-SUFFIX,playartifact.com
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,underlords.com
@@ -139,8 +128,10 @@ DOMAIN,steamvideo-a.akamaihd.net
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN-SUFFIX,steamcommunity.com
 
-# EPIC 虚幻游戏平台 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/epicgames
+# EPIC 虚幻游戏平台
+# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/epicgames
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+# https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Epicgames.list
 DOMAIN-SUFFIX,epicgames.com
 DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,paragon.com
@@ -153,15 +144,14 @@ DOMAIN-SUFFIX,shadowcomplex.com
 DOMAIN-SUFFIX,spyjinx.com
 DOMAIN-SUFFIX,unrealtournament.com
 
-# epic国际 下载
+# EPIC 虚幻游戏平台 游戏下载
 DOMAIN,epicgames-download1.akamaized.net
 
-# GOG游戏平台 https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list
-# 仅国际
+# GOG游戏平台
+# https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Gog.list
 DOMAIN-SUFFIX,gog.com
 
 # EA游戏平台
-# 2
 
 DOMAIN-SUFFIX,warframe.com
 
@@ -175,11 +165,14 @@ DOMAIN-SUFFIX,blizzard.com
 # B社
 DOMAIN-SUFFIX,bethesda.net
 
-# 内容：Discord，数量：6条 来自https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list
+# Discord
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Discord.list
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/discord
+# https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Discord.list
 DOMAIN-KEYWORD,discord
 
-#TapTap 参考https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list，数量：2条
+# TapTap
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,tapimg.com
 DOMAIN-SUFFIX,taptap.io
@@ -195,7 +188,8 @@ DOMAIN-SUFFIX,capcomusa.com
 DOMAIN-KEYWORD,residentevil
 DOMAIN-KEYWORD,devilmaycry
 
-#其他平台 来自 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+# 其他
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN,humblebundle-a.akamaihd.net
@@ -223,7 +217,8 @@ DOMAIN-SUFFIX,battlefield.com
 # 正当防卫
 DOMAIN-SUFFIX,eidos.com
 DOMAIN-SUFFIX,square-enix-games.com
-# 拳头游戏 https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/riot
+# 拳头游戏
+# https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/riot
 DOMAIN-KEYWORD,riotgames
 DOMAIN-KEYWORD,leagueoflegends
 DOMAIN-KEYWORD,playvalorant
