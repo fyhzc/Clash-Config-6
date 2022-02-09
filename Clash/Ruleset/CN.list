@@ -1,4 +1,13 @@
-# 中国大陆直连
+# 仅在中国大陆连接的地址（直连）
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
+
+# 顶级域列表
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,中国
 DOMAIN-SUFFIX,公司
