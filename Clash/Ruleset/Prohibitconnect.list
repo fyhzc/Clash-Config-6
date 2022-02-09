@@ -1,7 +1,7 @@
 # 链接屏蔽规则
 
 # === beta ===
-# B站 MCDN
+# B站 MCDN（这个东西影响视频加载流畅度）
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN,ali-bj-pcdn-01.biliapi.net
 DOMAIN,ali-bj-pcdn-02.biliapi.net
@@ -46,18 +46,30 @@ DOMAIN,ali-bj-pcdn-40.biliapi.net
 DOMAIN,web-player-tracker.biliapi.net
 
 # === beta ===
-# Yk Pcdn
+# YK PCDN（这个东西影响视频加载流畅度）
 DOMAIN,pgw-cld-ml.alicdn.com
 
 # === beta ===
 # Safari 网址安全检查
 DOMAIN,safebrowsing.urlsec.qq.com
 
-# 屏蔽内容农场
+# 屏蔽高频内容农场
 DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,hezhisw.com
 
-# easyprivacy
+# httpdns会导致 Adguard Home 拦截功能失效
+# Ali httpdns ip range
+# IP-CIDR,203.107.1.0/24,no-resolve
+
+# TX httpdns ip
+# IP-CIDR,119.29.29.99/32,no-resolve
+# IP-CIDR,119.29.29.98/32,no-resolve
+
+# bd httpdns ip
+# IP-CIDR,180.76.76.200/32,no-resolve
+# IP-CIDR,180.76.76.112/32,no-resolve
+
+# Easy privacy 高频列表
 # Ali
 DOMAIN-SUFFIX,log.aliyuncs.com
 DOMAIN-SUFFIX,beacon-api.aliyuncs.com
@@ -99,12 +111,10 @@ DOMAIN,ext.baidu.com
 DOMAIN,entry.baidu.com
 DOMAIN,ug.baidu.com
 
-DOMAIN-SUFFIX,cloudflareinsights.com
-
 # ByteDance 头条、抖音
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,mon.snssdk.com
-# 待验证
+# 
 DOMAIN-SUFFIX,is.snssdk.com
 
 DOMAIN-SUFFIX,line1-log.biligame.net
@@ -133,34 +143,39 @@ DOMAIN-SUFFIX,sdkauth.hpplay.cn
 
 DOMAIN-SUFFIX,ads.sohu.com
 
+# 网易
 DOMAIN-SUFFIX,analytics.126.net
 DOMAIN-SUFFIX,analytics.163.com
 
+# 中移
 DOMAIN-SUFFIX,log1.cmpassport.com
 DOMAIN-SUFFIX,log2.cmpassport.com
 DOMAIN-SUFFIX,sdc.10086.cn
 DOMAIN-SUFFIX,ggx.cmvideo.cn
 DOMAIN-SUFFIX,crystalapp.miguvideo.com
 
+# 新浪
 DOMAIN-SUFFIX,alitui.weibo.com
 
+# 知乎
 DOMAIN,zhihu-web-analytics.zhihu.com
 DOMAIN,zhihu-app-analytics.zhihu.com
 DOMAIN-SUFFIX,analytics.zhihu.com
 
+# 其他
+DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,metrics-dra.dt.hicloud.com
 DOMAIN-SUFFIX,metrics.amd.com
 DOMAIN-SUFFIX,metrics.aem.playstation.com
 DOMAIN-SUFFIX,metrics.apple.com
 DOMAIN-SUFFIX,metrics.icloud.com
+DOMAIN,api.miwifi.com
+DOMAIN,all-c-master-tutk.iotcplatform.com
 
 # CSDN
 DOMAIN,event.csdn.net
 
-DOMAIN,api.miwifi.com
-
-DOMAIN,all-c-master-tutk.iotcplatform.com
-
+# 以下是不受欢迎的软件列表
 # 流氓大王2345
 DOMAIN,dl.2345.com
 DOMAIN-SUFFIX,2345.com
