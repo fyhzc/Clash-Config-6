@@ -20,15 +20,6 @@ DOMAIN-SUFFIX,bing.com
 DOMAIN-KEYWORD,yahoo
 DOMAIN-SUFFIX,yimg.com
 
-# Mozilla Firefox
-DOMAIN-SUFFIX,mozilla.com
-DOMAIN-SUFFIX,mozilla.org
-DOMAIN-SUFFIX,mozilla.net
-DOMAIN-SUFFIX,firefox.com
-DOMAIN-SUFFIX,mozgcp.net
-DOMAIN-SUFFIX,moz.works
-DOMAIN-SUFFIX,mozit.cloud
-
 # 国外域名关键字
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,dropbox
