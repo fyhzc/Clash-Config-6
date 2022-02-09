@@ -1,3 +1,4 @@
+# 苹果
 IP-CIDR,17.0.0.0/8
 IP-CIDR,63.92.224.0/19
 IP-CIDR,65.199.22.0/23
@@ -14,7 +15,7 @@ DOMAIN,captive.apple.com
 DOMAIN,doh.dns.apple.com
 DOMAIN,doh.dns.apple.com.v.aaplimg.com
 
-# beta
+# === beta ===
 # App Store
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 225-229 237-242 lines
 DOMAIN-SUFFIX,mzstatic.com
