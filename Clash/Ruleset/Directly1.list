@@ -1,11 +1,16 @@
-#示例
-#DOMAIN,fhyu34hydr873hn8c.cn
-#IP-CIDR,223.5.5.5/32,
-# 游戏平台国内有CDN的，需要强制直连
+# 直连白名单（无屏蔽）
+# 示例
+# DOMAIN,123.cn
+# DOMAIN-SUFFIX,123.com
+# DOMAIN-KEYWORD,fool
+# IP-CIDR,223.5.5.5/32（包括域名）
+# IP-CIDR,223.5.5.5/32,no-resolve（单IP）
+# IP-CIDR6,2620:149:a44::/48
 
 # 阿里云传输加速
 DOMAIN-SUFFIX,oss-accelerate.aliyuncs.com
 
+# 游戏平台国内CDN
 # uplay平台
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN,uplaypc-s-ubisoft-ww.cdn.ubi.com
@@ -88,7 +93,6 @@ DOMAIN,smtp.office365.com
 DOMAIN,imap-mail.outlook.com
 DOMAIN,pop-mail.outlook.com
 DOMAIN,smtp-mail.outlook.com
-# DOMAIN,m.hotmail.com
 
 DOMAIN,pop.gmail.com
 DOMAIN,smtp.gmail.com
@@ -131,10 +135,6 @@ DOMAIN,msg.umengcloud.com
 DOMAIN,app.adjust.com
 DOMAIN,bdtj.tagtic.cn
 
-# 阿里云验证码加载
-# https://help.aliyun.com/document_detail/66596.html
-# DOMAIN-SUFFIX,ynuf.aliapp.org
-
 # 服务器强制直连
 DOMAIN-SUFFIX,checkmails.xyz
 DOMAIN-SUFFIX,uuuglass.co
@@ -142,7 +142,6 @@ DOMAIN-SUFFIX,iqdnsio.co
 DOMAIN-SUFFIX,iqiq.io
 DOMAIN-SUFFIX,immtel.co
 DOMAIN-SUFFIX,nxtlnodes.com
-DOMAIN-SUFFIX,china-cdn-net.com
 
 # 2345天气
 DOMAIN,tianqi.2345.com
