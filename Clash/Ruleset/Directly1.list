@@ -112,9 +112,10 @@ DOMAIN-SUFFIX,mail.me.com
 # DOMAIN,poppro.zoho.com
 
 # playstation CDN
-# ### https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 219 line 未使用
+# https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 219 line 未使用
 
 # ACL4SSR Unbreak 白名单 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+# 更新日期：2021年
 # Getui地震速报
 DOMAIN-SUFFIX,dizhensubao.getui.com
 # Origin
