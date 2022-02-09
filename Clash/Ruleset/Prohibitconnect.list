@@ -1,9 +1,7 @@
-# 屏蔽
-# 示例
-# DOMAIN-SUFFIX,6g4f6refghiuer.com
-# IP-CIDR,8.8.8.8/32,no-resolve
+# 链接屏蔽规则
 
-# B站 MCDN beta
+# === beta ===
+# B站 MCDN
 DOMAIN-SUFFIX,mcdn.bilivideo.cn
 DOMAIN,ali-bj-pcdn-01.biliapi.net
 DOMAIN,ali-bj-pcdn-02.biliapi.net
@@ -48,15 +46,13 @@ DOMAIN,ali-bj-pcdn-40.biliapi.net
 # 
 DOMAIN,web-player-tracker.biliapi.net
 
-# Yk Pcdn beta
+# === beta ===
+# Yk Pcdn
 DOMAIN,pgw-cld-ml.alicdn.com
 
 # ali httpdns ip 203.107.1.0/24,no-resolve
 
-# tenvideo、iqiyi
-# firewall ban udp
-
-# beta
+# === beta ===
 # Safari 网址安全检查
 DOMAIN,safebrowsing.urlsec.qq.com
 
@@ -76,8 +72,6 @@ DOMAIN-SUFFIX,adashx.m.taobao.com
 DOMAIN-SUFFIX,audid-api.taobao.com
 DOMAIN-SUFFIX,umengacs.m.taobao.com
 DOMAIN-SUFFIX,amdcopen.m.taobao.com
-# DOMAIN-SUFFIX,nbsdk-baichuan.alicdn.com
-# DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,applog.uc.cn
 DOMAIN-SUFFIX,px.ucweb.com
 DOMAIN-SUFFIX,collect.alipay.com
@@ -97,7 +91,9 @@ DOMAIN-SUFFIX,analytics.google.com
 
 # Baidu
 DOMAIN-SUFFIX,fclog.baidu.com
-# --- beta --- 百度福利推广、百度app跳转
+
+# === beta ===
+# 百度福利推广、百度app跳转
 DOMAIN,eopa.baidu.com
 DOMAIN,boxer.baidu.com
 DOMAIN,miao.baidu.com
@@ -111,7 +107,7 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 # ByteDance 头条、抖音
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,mon.snssdk.com
-# ?cdn相关，有待验证
+# 待验证
 DOMAIN-SUFFIX,is.snssdk.com
 
 DOMAIN-SUFFIX,line1-log.biligame.net
