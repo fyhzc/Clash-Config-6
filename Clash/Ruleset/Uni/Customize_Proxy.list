@@ -21,6 +21,7 @@ DOMAIN-KEYWORD,yahoo
 DOMAIN-SUFFIX,yimg.com
 
 # 国外域名关键字
+DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
 DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
@@ -29,6 +30,9 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,twitter
 
 # 国外域名
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,1e100.net
