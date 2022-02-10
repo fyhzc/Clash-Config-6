@@ -35,3 +35,10 @@ IP-CIDR,109.239.140.0/24,no-resolve
 # https://bgp.he.net/AS62041#_prefixes
 # https://ipinfo.io/AS62041
 IP-CIDR,95.161.64.0/20,no-resolve
+
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
