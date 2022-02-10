@@ -76,9 +76,9 @@ DOMAIN-SUFFIX,faceit-cdn.net
 # 华硕
 DOMAIN-SUFFIX,asus.com
 # 罗技
-DOMAIN-SUFFIX,logi.com
-DOMAIN-KEYWORD,logitech
-DOMAIN-SUFFIX,logitech.zendesk.com
+# DOMAIN-SUFFIX,logi.com
+# DOMAIN-KEYWORD,logitech
+# DOMAIN-SUFFIX,logitech.zendesk.com
 # NVIDIA
 DOMAIN-SUFFIX,nvidia.com
 
@@ -188,15 +188,16 @@ DOMAIN-SUFFIX,chinaplay.store
 # 卡普空
 DOMAIN-SUFFIX,capcom.com
 DOMAIN-SUFFIX,capcom-unity.com
-DOMAIN-SUFFIX,capcomusa.com
+# DOMAIN-SUFFIX,capcomusa.com
 DOMAIN-KEYWORD,residentevil
 DOMAIN-KEYWORD,devilmaycry
 
 # 其他
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN,humblebundle-a.akamaihd.net
+
+DOMAIN-KEYWORD,humblebundle
+DOMAIN-SUFFIX,humblegames.com
 
 DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,garena.com
@@ -211,7 +212,7 @@ DOMAIN-SUFFIX,pubg.com
 # 逃离塔克夫
 DOMAIN-SUFFIX,escapefromtarkov.com
 DOMAIN-SUFFIX,eft-store.com
-# hitman
+# Hitman
 DOMAIN-SUFFIX,ioi.dk
 DOMAIN-SUFFIX,hitman.io
 DOMAIN-SUFFIX,hitman.com
@@ -220,7 +221,7 @@ DOMAIN-SUFFIX,battlelog.com
 DOMAIN-SUFFIX,battlefield.com
 # 正当防卫
 DOMAIN-SUFFIX,eidos.com
-DOMAIN-SUFFIX,square-enix-games.com
+DOMAIN-KEYWORD,square-enix
 # 拳头游戏
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/riot
 DOMAIN-KEYWORD,riotgames
