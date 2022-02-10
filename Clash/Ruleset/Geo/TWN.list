@@ -24,6 +24,3 @@ IP-CIDR,101.102.103.104/32,no-resolve
 # linkedin国际版
 # ！！https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 209 line
 DOMAIN-SUFFIX,linkedin.com
-
-# ip.skk.moe 纯真数据库API
-DOMAIN,qqwry.api.skk.moe
