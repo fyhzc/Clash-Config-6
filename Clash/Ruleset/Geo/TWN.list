@@ -18,8 +18,8 @@ DOMAIN-SUFFIX,emome.net
 DOMAIN-SUFFIX,litv.tv
 
 # Quad101 DNS
-IP-CIDR,101.101.101.101/32
-IP-CIDR,101.102.103.104/32
+IP-CIDR,101.101.101.101/32,no-resolve
+IP-CIDR,101.102.103.104/32,no-resolve
 
 # linkedin国际版
 # ！！https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 209 line
