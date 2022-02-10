@@ -130,6 +130,9 @@ DOMAIN-SUFFIX,is.snssdk.com
 DOMAIN-SUFFIX,line1-log.biligame.net
 DOMAIN-SUFFIX,dataflow.biliapi.com
 
+# TalkingData营销平台
+DOMAIN-SUFFIX,cpatrk.net
+
 # 站点统计
 DOMAIN-SUFFIX,cnzz.net
 DOMAIN-SUFFIX,cnzz.com
