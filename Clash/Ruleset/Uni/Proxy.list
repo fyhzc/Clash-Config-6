@@ -31,7 +31,6 @@ DOMAIN,safebrowsing.googleapis.com
 
 # 国外 DNS 服务器地址
 DOMAIN-SUFFIX,cloudflare-dns.com
-DOMAIN,doh.applied-privacy.net
 DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,dns.sb
 DOMAIN-SUFFIX,doh.sb
