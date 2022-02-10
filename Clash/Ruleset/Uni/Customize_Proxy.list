@@ -51,6 +51,21 @@ DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,tumblr.com
 
+# 维基百科
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list
+DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,wikibooks.org
+DOMAIN-SUFFIX,wikidata.org
+DOMAIN-SUFFIX,wikileaks.org
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikinews.org
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikisource.org
+DOMAIN-SUFFIX,wikiversity.org
+DOMAIN-SUFFIX,wikivoyage.org
+DOMAIN-SUFFIX,wiktionary.org
+
 # 开发者高频站点
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
