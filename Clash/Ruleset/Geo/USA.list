@@ -10,8 +10,5 @@
 # 美国顶级域
 DOMAIN-SUFFIX,us
 
-# ip.skk.moe 纯真数据库API
-DOMAIN,qqwry.api.skk.moe
-
 # 以下内容必须有完整GeoIP数据库时才能启用，否则可能会出现未知错误
 # GEOIP,US
