@@ -168,9 +168,10 @@ DOMAIN-SUFFIX,gog.com
 # Origin
 DOMAIN-SUFFIX,origin.com
 DOMAIN-SUFFIX,ea.com
+# 聊天/好友服务
+DOMAIN-SUFFIX,tnt-ea.com
 # Battle Log / Battlefield
-DOMAIN-KEYWORD,battlefield
-
+# DOMAIN-KEYWORD,battlefield
 
 # Digital Extremes
 DOMAIN-SUFFIX,digitalextremes.com
