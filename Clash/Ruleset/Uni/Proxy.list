@@ -9,7 +9,7 @@
 
 # ACL4SSR Unbreak 白名单 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 # Epicgames
-DOMAIN-SUFFIX,ol.epicgames.com
+# DOMAIN-SUFFIX,ol.epicgames.com
 # Mozilla
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 
@@ -33,16 +33,9 @@ DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN,doh.applied-privacy.net
 DOMAIN-SUFFIX,nextdns.io
-DOMAIN-SUFFIX,quad9.net
 DOMAIN-SUFFIX,dns.sb
 DOMAIN-SUFFIX,doh.sb
 DOMAIN,doh.opendns.com
-
-IP-CIDR,8.8.8.8/32
-IP-CIDR,8.8.4.4/32
-IP-CIDR,1.1.1.1/32
-IP-CIDR,1.0.0.1/32
-IP-CIDR,9.9.9.9/32
 
 # Edge 标签页
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 210 line
