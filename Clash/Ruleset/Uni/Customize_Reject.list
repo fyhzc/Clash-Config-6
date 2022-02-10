@@ -184,10 +184,19 @@ DOMAIN-SUFFIX,metrics.aem.playstation.com
 DOMAIN-SUFFIX,metrics.apple.com
 DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN,api.miwifi.com
+DOMAIN-SUFFIX,installer.xiaomi.com
 DOMAIN,all-c-master-tutk.iotcplatform.com
 
 # CSDN
 DOMAIN,event.csdn.net
+
+# 阳光守护
+DOMAIN-SUFFIX,eversunshine.cn
+DOMAIN-KEYWORD,eversunshine
+
+# 麦田守护
+DOMAIN-SUFFIX,famiguard.cn
+DOMAIN,famiguardapi.imyfone.cn
 
 # 以下是不受欢迎的软件列表
 # 流氓大王2345
