@@ -194,6 +194,9 @@ DOMAIN-SUFFIX,letv.com
 DOMAIN-SUFFIX,letvcdn.com
 DOMAIN-SUFFIX,letvimg.com
 
+# 城通网盘
+DOMAIN-SUFFIX,ctfile.com
+
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,360doc.com
 DOMAIN-SUFFIX,36kr.com
