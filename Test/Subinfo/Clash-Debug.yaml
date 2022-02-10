@@ -8,6 +8,18 @@ hosts:
   openwrt-router.adminlogin-lan.com: 172.18.210.253
 clash-for-android:
   append-system-dns: false
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  enhanced-mode: redir-host
+  use-hosts: true
+  nameserver:
+    - 'https://doh.360.cn/dns-query'
+    - 'https://dns.alidns.com/dns-query'
+  fallback:
+    - 'https://public.dns.iij.jp/dns-query'
+    - 'https://doh.opendns.com/dns-query'
 cfw-latency-timeout: 3000
 cfw-latency-url: http://clients3.google.com/generate_204
 cfw-conn-break-strategy:
