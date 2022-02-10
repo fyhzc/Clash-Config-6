@@ -15,7 +15,7 @@ dns:
   enhanced-mode: redir-host
   use-hosts: true
   nameserver:
-    - 'https://doh.360.cn/dns-query'
+    - 'https://doh.pub/dns-query'
     - 'https://dns.alidns.com/dns-query'
   fallback:
     - 'https://public.dns.iij.jp/dns-query'
