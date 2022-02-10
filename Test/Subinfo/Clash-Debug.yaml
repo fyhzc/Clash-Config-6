@@ -1,0 +1,61 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+ipv6: false
+mode: Rule
+log-level: debug
+hosts:
+  openwrt-router.adminlogin-lan.com: 172.18.210.253
+clash-for-android:
+  append-system-dns: false
+cfw-latency-timeout: 3000
+cfw-latency-url: http://clients3.google.com/generate_204
+cfw-conn-break-strategy:
+  proxy: chain
+  profile: true
+  mode: true
+cfw-proxies-order: default
+proxies:
+  - {name: "🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 01 1Gbps HBO TVB", server: hk054h6gyhcloud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 02 1Gbps HBO TVB", server: hkytrvheud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+  - {name: "🇭🇰 [SS] 🇭🇰 中国-香港 IEPL Equinix HK2 D 03 1Gbps HBO TVB", server: hkhtrhud.tech, port: 26931, type: ss, cipher: rc4-md5, password: pzb5mhp4klh, udp: true}
+proxy-groups:
+  - name: 😈 拦截地址
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 👻 测试地址
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: ☃️ 直连地址
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+  - name: ✅ 代理地址
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+rules:
+ - DOMAIN-SUFFIX,ip6-localhost,DIRECT
+ - DOMAIN-SUFFIX,ip6-loopback,DIRECT
+ - DOMAIN-SUFFIX,local,DIRECT
+ - DOMAIN-SUFFIX,localhost,DIRECT
+ - IP-CIDR,10.0.0.0/8,DIRECT
+ - IP-CIDR,100.64.0.0/10,DIRECT
+ - IP-CIDR,172.16.0.0/12,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT
+ - IP-CIDR,203.0.113.0/24,DIRECT
+ - IP-CIDR6,::1/128,DIRECT
+ - IP-CIDR6,fc00::/7,DIRECT
+ - IP-CIDR6,fe80::/10,DIRECT
+ - IP-CIDR6,fd00::/8,DIRECT
+ - DOMAIN,tplogin.cn,DIRECT
+ - DST-PORT,65535,😈 拦截地址
+ - IP-CIDR,8.8.8.8/32,👻 测试地址
+ - GEOIP,CN,☃️ 直连地址
+ - MATCH,✅ 代理地址
