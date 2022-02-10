@@ -58,6 +58,12 @@ DOMAIN-SUFFIX,playstation.net
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nintendo
 # https://raw.githubusercontent.com/LM-Firefly/Rules/master/Game/Nintendo.list
 DOMAIN-KEYWORD,nintendo
+# 宝可梦
+DOMAIN-SUFFIX,pokemon.com
+DOMAIN-SUFFIX,pokemongolive.com
+DOMAIN-SUFFIX,pokemonmasters-game.com
+# Animal Croosing 动物森友会
+DOMAIN-SUFFIX,ac-pocketcamp.com
 # DOMAIN-SUFFIX,e10127.a.akamaiedge.net
 
 # 驱动、反作弊以及游戏周边资源
@@ -65,9 +71,9 @@ DOMAIN-KEYWORD,nintendo
 # battleye
 DOMAIN-SUFFIX,battleye.com
 # EAC
-DOMAIN-SUFFIX,eac-cdn.com
+# DOMAIN-SUFFIX,eac-cdn.com
 DOMAIN-SUFFIX,easy.ac
-DOMAIN-SUFFIX,easyanticheat.net
+# DOMAIN-SUFFIX,easyanticheat.net
 # faceit
 DOMAIN-SUFFIX,faceit.com
 DOMAIN-SUFFIX,faceit-cdn.net
@@ -120,7 +126,7 @@ DOMAIN-SUFFIX,steamusercontent.com
 # DOMAIN-SUFFIX,playartifact.com
 # DOMAIN-SUFFIX,underlords.com
 # DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net
-# Oversea CDN
+# Oversea CDN （Akamai）
 # DOMAIN-SUFFIX,steamstatic.com
 # DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net
 
@@ -159,7 +165,15 @@ DOMAIN-SUFFIX,unrealtournament.com
 DOMAIN-SUFFIX,gog.com
 
 # EA游戏平台
+# Origin
+DOMAIN-SUFFIX,origin.com
+DOMAIN-SUFFIX,ea.com
+# Battle Log / Battlefield
+DOMAIN-KEYWORD,battlefield
 
+
+# Digital Extremes
+DOMAIN-SUFFIX,digitalextremes.com
 DOMAIN-SUFFIX,warframe.com
 
 # R星游戏
