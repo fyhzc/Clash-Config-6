@@ -19,7 +19,7 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN,www.gstatic.cn
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,gvt1.com
+# (自定义列表)DOMAIN-SUFFIX,gvt1.com
 
 # Google API https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 # https://github.com/loongfzs/Clash-Config/blob/main/Clash/GeneralConfig_no-ipv6_redir-host.yml 204-207 lines
