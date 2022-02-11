@@ -179,8 +179,11 @@ dns:
     - 'https://doh.360.cn/dns-query'
     - 'https://dns.alidns.com/dns-query'
   fallback:
-#    - 'https://public.dns.iij.jp/dns-query'
-    - 'https://doh.opendns.com/dns-query'
+    # -
+    #- 'https://public.dns.iij.jp/dns-query'
+    #- 'https://doh.opendns.com/dns-query'
+    # -
+    - 'https://doh.dns.sb/dns-query'
     - 'https://101.101.101.101/dns-query'
   fallback-filter:
     geoip: true
