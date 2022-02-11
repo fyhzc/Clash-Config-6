@@ -24,50 +24,64 @@ DOMAIN-SUFFIX,yimg.com
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
 
-DOMAIN-KEYWORD,dropbox
 DOMAIN-SUFFIX,dropbox.com
 
-DOMAIN-KEYWORD,facebook
+DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
 
-DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,instagram.com
 
-DOMAIN-KEYWORD,twitter
+DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twimg.com
 
 # 国外域名
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,archive.org
-DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,pinterest.com
 DOMAIN-SUFFIX,quora.com
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,torproject.org
 DOMAIN-SUFFIX,tumblr.com
 
-# 维基百科
+# 维基家族（高频访问）
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
+# DOMAIN-SUFFIX,mediawiki.org
+# DOMAIN-SUFFIX,wikibooks.org
+# DOMAIN-SUFFIX,wikidata.org
+# DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
+# DOMAIN-SUFFIX,wikinews.org
 DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
+# DOMAIN-SUFFIX,wikiquote.org
+# DOMAIN-SUFFIX,wikisource.org
+# DOMAIN-SUFFIX,wikiversity.org
+# DOMAIN-SUFFIX,wikivoyage.org
+# DOMAIN-SUFFIX,wiktionary.org
 
 # 开发者高频站点
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,apache.org
+DOMAIN-SUFFIX,opensource.com
+DOMAIN-SUFFIX,debian.org
+DOMAIN-SUFFIX,centos.org
+DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,openwrt.org
