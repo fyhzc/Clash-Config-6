@@ -87,3 +87,6 @@ DOMAIN-SUFFIX,dns.pub
 
 # DNS 服务IP
 IP-CIDR,1.12.34.56/32,no-resolve
+
+# 特殊域名
+DOMAIN-SUFFIX,xip.io
