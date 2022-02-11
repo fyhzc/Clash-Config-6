@@ -68,6 +68,7 @@ hosts:
    'securelogin.arubanetworks.com': 10.253.1.28
    'ayxy.pheicloud.com': 10.253.1.11
    'openwrt-router.adminlogin-lan.com': 172.18.210.253
+   'switch-1.adminlogin-lan.com': 172.18.210.201
 #profile:
   # Store the `select` results in $HOME/.config/clash/.cache
   # set false If you don't want this behavior
