@@ -52,7 +52,6 @@ DST-PORT,465
 DST-PORT,587
 # 邮箱发信
 DOMAIN-SUFFIX,smtp
-URL-REGEX,(Subject|HELO|SMTP)
 # 国外邮箱服务
 DOMAIN,outlook.office365.com
 DOMAIN,smtp-mail.outlook.com
