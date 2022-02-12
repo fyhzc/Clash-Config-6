@@ -181,10 +181,11 @@ dns:
   fallback:
     # -
     #- 'https://public.dns.iij.jp/dns-query'
-    #- 'https://doh.opendns.com/dns-query'
+    - 'https://doh.opendns.com/dns-query'
     # -
-    - 'https://doh.dns.sb/dns-query'
-    - 'https://101.101.101.101/dns-query'
+    #- 'https://doh.dns.sb/dns-query'
+    #- 'https://101.101.101.101/dns-query'
+    - 'https://a.passcloud.xyz/hk'
   fallback-filter:
     geoip: true
     geoip-code: CN
