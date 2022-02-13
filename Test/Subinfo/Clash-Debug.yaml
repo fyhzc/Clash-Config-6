@@ -67,8 +67,8 @@ rules:
  - IP-CIDR6,fe80::/10,DIRECT
  - IP-CIDR6,fd00::/8,DIRECT
  - DOMAIN,tplogin.cn,DIRECT
- - IP-CIDR,8.8.8.8,😈 拦截地址
- - IP-CIDR,8.8.4.4,😈 拦截地址
+ - IP-CIDR,8.8.8.8/32,😈 拦截地址
+ - IP-CIDR,8.8.4.4/32,😈 拦截地址
  - DST-PORT,65535,😈 拦截地址
  - GEOIP,CN,☃️ 直连地址
  - MATCH,✅ 代理地址
