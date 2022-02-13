@@ -179,13 +179,17 @@ dns:
     - 'https://doh.360.cn/dns-query'
     - 'https://dns.alidns.com/dns-query'
   fallback:
-    # -
-    #- 'https://public.dns.iij.jp/dns-query'
+    # -国内可用的 doh、dot 列表
+    - 'https://public.dns.iij.jp/dns-query'
     - 'https://doh.opendns.com/dns-query'
     # -
     #- 'https://doh.dns.sb/dns-query'
     #- 'https://101.101.101.101/dns-query'
-    - 'https://a.passcloud.xyz/hk'
+    #- 'https://a.passcloud.xyz/hk'
+    #- 'https://1.0.0.1/dns-query'
+    #- 'https://azure.cloudflare-dns.com/dns-query'
+    #- 'https://dns.switch.ch/dns-query'
+    #- 'tls://8.8.4.4'
   fallback-filter:
     geoip: true
     geoip-code: CN
@@ -246,9 +250,6 @@ dns:
       - '+.aaplimg.com'
       - 'apps.apple.com'
 #  Apple TV https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AppleTV.list
-# 太慢     - https://1.0.0.1/dns-query
-# https://azure.cloudflare-dns.com/dns-query
-#     - https://dns.switch.ch/dns-query
 #cfw tun mode配置
 #失效
 # 1. clash DNS 请求逻辑：
