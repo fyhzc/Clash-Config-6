@@ -30,6 +30,9 @@ DOMAIN,clientservices.googleapis.com
 DOMAIN,safebrowsing.googleapis.com
 
 # 国外 DNS 服务器地址
+DOMAIN-SUFFIX,dns.google
+IP-CIDR,1.1.1.1/32,no-resolve
+IP-CIDR,1.0.0.1/32,no-resolve
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,nextdns.io
 DOMAIN-SUFFIX,dns.sb
