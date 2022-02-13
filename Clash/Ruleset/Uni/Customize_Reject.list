@@ -119,12 +119,20 @@ DOMAIN,ada.baidu.com
 DOMAIN,ext.baidu.com
 DOMAIN,entry.baidu.com
 DOMAIN,ug.baidu.com
+DOMAIN,mbdp02.bdstatic.com
+DOMAIN,s.bdstatic.com
 
-# ByteDance 头条、抖音
-DOMAIN-SUFFIX,mcs.snssdk.com
-DOMAIN-SUFFIX,mon.snssdk.com
-# 
-DOMAIN-SUFFIX,is.snssdk.com
+# 西瓜播放器log收集器
+DOMAIN,mcs.snssdk.com
+# === beta ===
+# https://github.com/v2fly/domain-list-community/blob/0799995cd1711e8b055d4dcce9c4457e4c218bfc/data/bytedance-ads
+DOMAIN,bds.snssdk.com
+DOMAIN,ctobsnssdk.com
+DOMAIN,extlog.snssdk.com
+DOMAIN,i.snssdk.com
+DOMAIN,pangolin-sdk-toutiao.com
+DOMAIN,pglstatp-toutiao.com
+DOMAIN,sf3-ttcdn-tos.pstatp.com
 
 # 哔哩哔哩
 DOMAIN-SUFFIX,line1-log.biligame.net
@@ -155,6 +163,7 @@ DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,imdns.hpplay.cn
 DOMAIN-SUFFIX,sdkauth.hpplay.cn
 DOMAIN-SUFFIX,log.avlyun.com
+
 
 DOMAIN-SUFFIX,ads.sohu.com
 
