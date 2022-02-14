@@ -184,7 +184,7 @@ dns:
     - 'https://doh.opendns.com/dns-query'
     # -
     #- 'https://doh.dns.sb/dns-query'
-    #- 'https://101.101.101.101/dns-query'
+    - 'https://101.101.101.101/dns-query'
     #- 'https://a.passcloud.xyz/hk'
     #- 'https://1.0.0.1/dns-query'
     #- 'https://azure.cloudflare-dns.com/dns-query'
