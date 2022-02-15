@@ -26,24 +26,13 @@ DOMAIN-SUFFIX,srv.nintendo.net
 # Xbox
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Xbox.list
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xbox
-DOMAIN-SUFFIX,forzamotorsport.net
-DOMAIN-SUFFIX,forzaracingchampionship.com
-DOMAIN-SUFFIX,forzarc.com
-DOMAIN-SUFFIX,orithegame.com
-DOMAIN-SUFFIX,tellmewhygame.com
-DOMAIN-SUFFIX,xbox.co
 DOMAIN-SUFFIX,xbox.com
-DOMAIN-SUFFIX,xbox.org
-DOMAIN-SUFFIX,xboxplayanywhere.com
-DOMAIN-SUFFIX,xboxstudios.com
+DOMAIN-SUFFIX,xboxab.com
+DOMAIN-SUFFIX,xboxab.net
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,xboxservice.com
+DOMAIN-SUFFIX,xboxservices.com
 DOMAIN-SUFFIX,gamepass.com
-DOMAIN-SUFFIX,zune.net
-DOMAIN-KEYWORD,xboxab
-DOMAIN-KEYWORD,xbox360
-DOMAIN-KEYWORD,xboxgame
-DOMAIN-KEYWORD,xboxlive
-DOMAIN-KEYWORD,xboxone
-DOMAIN-KEYWORD,xboxservice
 
 # Sony playstation
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
@@ -73,11 +62,11 @@ DOMAIN-SUFFIX,battleye.com
 DOMAIN-SUFFIX,easy.ac
 # faceit
 DOMAIN-SUFFIX,faceit.com
-DOMAIN-SUFFIX,faceit-cdn.net
+# DOMAIN-SUFFIX,faceit-cdn.net
 
 # 外设产品、驱动或工具
 # 华硕
-DOMAIN-SUFFIX,asus.com
+# DOMAIN-SUFFIX,asus.com
 # NVIDIA
 DOMAIN-SUFFIX,nvidia.com
 
@@ -131,7 +120,6 @@ DOMAIN-SUFFIX,steamstatic.com
 # DOMAIN,community.akamai.steamstatic.com
 # DOMAIN,steamvideo-a.akamaihd.net
 # DOMAIN,steambroadcast.akamaized.net
-# DOMAIN-SUFFIX,steamcommunity.com
 
 # EPIC 虚幻游戏平台
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/epicgames
@@ -142,12 +130,6 @@ DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,paragon.com
 DOMAIN-SUFFIX,unrealengine.com
 DOMAIN-SUFFIX,epicgames.dev
-DOMAIN-SUFFIX,battlebreakers.com
-DOMAIN-SUFFIX,playparagon.com
-DOMAIN-SUFFIX,roborecall.com
-DOMAIN-SUFFIX,shadowcomplex.com
-DOMAIN-SUFFIX,spyjinx.com
-DOMAIN-SUFFIX,unrealtournament.com
 
 # EPIC 虚幻游戏平台 游戏下载
 # DOMAIN,epicgames-download1.akamaized.net
@@ -166,7 +148,7 @@ DOMAIN-SUFFIX,tnt-ea.com
 # DOMAIN-KEYWORD,battlefield
 
 # Digital Extremes
-DOMAIN-SUFFIX,digitalextremes.com
+# DOMAIN-SUFFIX,digitalextremes.com
 DOMAIN-SUFFIX,warframe.com
 
 # R星游戏
@@ -187,8 +169,8 @@ DOMAIN-KEYWORD,discord
 
 # TapTap
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TapTap.list
-DOMAIN-SUFFIX,tap.io
-DOMAIN-SUFFIX,tapimg.com
+# DOMAIN-SUFFIX,tap.io
+# DOMAIN-SUFFIX,tapimg.com
 DOMAIN-SUFFIX,taptap.io
 DOMAIN-SUFFIX,taptap.com
 
@@ -206,39 +188,39 @@ DOMAIN-KEYWORD,devilmaycry
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
 DOMAIN-SUFFIX,fanatical.com
 
-DOMAIN-KEYWORD,humblebundle
+DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,humblegames.com
 
-DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,garena.com
+# DOMAIN-SUFFIX,gameloft.com
+# DOMAIN-SUFFIX,garena.com
 
 # 米哈游社区
-DOMAIN-SUFFIX,hoyolab.com
+# DOMAIN-SUFFIX,hoyolab.com
 
-DOMAIN-SUFFIX,gameforge.com
+# DOMAIN-SUFFIX,gameforge.com
 
 # 游戏内域名
 # 绝地求生国际服
 DOMAIN-SUFFIX,playbattlegrounds.com
 DOMAIN-SUFFIX,pubg.com
 # 逃离塔克夫
-DOMAIN-SUFFIX,escapefromtarkov.com
-DOMAIN-SUFFIX,eft-store.com
+# DOMAIN-SUFFIX,escapefromtarkov.com
+# DOMAIN-SUFFIX,eft-store.com
 # Hitman
 DOMAIN-SUFFIX,ioi.dk
 DOMAIN-SUFFIX,hitman.io
 DOMAIN-SUFFIX,hitman.com
 # 战地
-DOMAIN-SUFFIX,battlelog.com
-DOMAIN-SUFFIX,battlefield.com
+# DOMAIN-SUFFIX,battlelog.com
+# DOMAIN-SUFFIX,battlefield.com
 # 正当防卫
-DOMAIN-SUFFIX,eidos.com
-DOMAIN-KEYWORD,square-enix
+# DOMAIN-SUFFIX,eidos.com
+# DOMAIN-KEYWORD,square-enix
 # 拳头游戏
 # https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/riot
-DOMAIN-KEYWORD,riotgames
-DOMAIN-KEYWORD,leagueoflegends
-DOMAIN-KEYWORD,playvalorant
+# DOMAIN-KEYWORD,riotgames
+# DOMAIN-KEYWORD,leagueoflegends
+# DOMAIN-KEYWORD,playvalorant
 
 # 我的世界
 DOMAIN-SUFFIX,minecraft.net
