@@ -64,16 +64,13 @@ DOMAIN-SUFFIX,pokemongolive.com
 DOMAIN-SUFFIX,pokemonmasters-game.com
 # Animal Croosing 动物森友会
 DOMAIN-SUFFIX,ac-pocketcamp.com
-# DOMAIN-SUFFIX,e10127.a.akamaiedge.net
 
 # 驱动、反作弊以及游戏周边资源
 # 反作弊加速
 # battleye
 DOMAIN-SUFFIX,battleye.com
 # EAC
-# DOMAIN-SUFFIX,eac-cdn.com
 DOMAIN-SUFFIX,easy.ac
-# DOMAIN-SUFFIX,easyanticheat.net
 # faceit
 DOMAIN-SUFFIX,faceit.com
 DOMAIN-SUFFIX,faceit-cdn.net
@@ -81,10 +78,6 @@ DOMAIN-SUFFIX,faceit-cdn.net
 # 外设产品、驱动或工具
 # 华硕
 DOMAIN-SUFFIX,asus.com
-# 罗技
-# DOMAIN-SUFFIX,logi.com
-# DOMAIN-KEYWORD,logitech
-# DOMAIN-SUFFIX,logitech.zendesk.com
 # NVIDIA
 DOMAIN-SUFFIX,nvidia.com
 
