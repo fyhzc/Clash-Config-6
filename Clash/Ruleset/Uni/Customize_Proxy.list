@@ -35,6 +35,9 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,ytimg.com
 
 DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxstatic.com
+DOMAIN-SUFFIX,dropboxusercontent.com
 
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fbcdn.com
@@ -66,3 +69,13 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,reddit.com
+
+# 国外云服务、常见CDN
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,akamaiedge.net
+DOMAIN-SUFFIX,akamaihd.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,cloudflare.net
+DOMAIN-SUFFIX,cloudflarestream.com
