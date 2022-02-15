@@ -29,6 +29,6 @@ IP-CIDR6,fd00::/8,no-resolve
 # DOMAIN-SUFFIX,routerlogin.com
 # DOMAIN-SUFFIX,tendawifi.com
 # DOMAIN-SUFFIX,zte.home
-DOMAIN,securelogin.arubanetworks.com
-DOMAIN,ayxy.pheicloud.com
-DOMAIN,tplogin.cn
+# DOMAIN,securelogin.arubanetworks.com
+# DOMAIN,ayxy.pheicloud.com
+# DOMAIN,tplogin.cn
