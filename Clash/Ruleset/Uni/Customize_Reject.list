@@ -119,8 +119,8 @@ DOMAIN,ada.baidu.com
 DOMAIN,ext.baidu.com
 DOMAIN,entry.baidu.com
 DOMAIN,ug.baidu.com
-DOMAIN,mbdp02.bdstatic.com
-DOMAIN,s.bdstatic.com
+# DOMAIN,mbdp02.bdstatic.com
+# DOMAIN,s.bdstatic.com
 
 # 西瓜播放器log收集器
 DOMAIN,mcs.snssdk.com
