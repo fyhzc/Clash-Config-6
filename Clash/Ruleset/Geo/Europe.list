@@ -27,3 +27,7 @@ DOMAIN-SUFFIX,nl
 DOMAIN-SUFFIX,es
 # 北欧-丹麦 DNK 顶级域
 DOMAIN-SUFFIX,dk
+
+# Hitman
+DOMAIN-SUFFIX,hitman.io
+DOMAIN-SUFFIX,hitman.com
