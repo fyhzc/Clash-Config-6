@@ -62,6 +62,7 @@ DOMAIN-SUFFIX,tumblr.com
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wikipedia.list
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wiktionary.org
 
 # 开发者高频站点
 DOMAIN-SUFFIX,github.com
