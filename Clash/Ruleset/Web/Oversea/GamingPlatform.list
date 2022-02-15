@@ -87,7 +87,16 @@ DOMAIN-SUFFIX,ubi.com
 # DOMAIN-SUFFIX,ubistatic2-a.akamaihd.net
 
 # ubisoft游戏内
-DOMAIN-SUFFIX,justdancenow.com
+# DOMAIN-SUFFIX,justdancenow.com
+# DOMAIN,jdnow-api-contentapistoragest-uat.justdancenow.com
+# DOMAIN,jdnow-api-contentapistoragest.justdancenow.com
+# DOMAIN,sneakpeak-test.justdancenow.com
+# DOMAIN,mp4-uat.justdancenow.com
+# DOMAIN,sneakpeak.justdancenow.com
+# DOMAIN,jdnow-api-contentapistoragest-demo.justdancenow.com
+# DOMAIN,mp4.justdancenow.com
+# DOMAIN,hls-uat.justdancenow.com
+# DOMAIN,hls.justdancenow.com
 
 # Steam
 # 威乐公司
