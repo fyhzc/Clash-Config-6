@@ -75,8 +75,4 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,akamaized.net
-DOMAIN-SUFFIX,akamaiedge.net
 DOMAIN-SUFFIX,akamaihd.net
-DOMAIN-SUFFIX,azureedge.net
-DOMAIN-SUFFIX,cloudflare.net
-DOMAIN-SUFFIX,cloudflarestream.com
