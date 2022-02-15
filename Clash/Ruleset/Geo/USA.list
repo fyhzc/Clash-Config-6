@@ -9,6 +9,3 @@
 
 # 美国顶级域
 DOMAIN-SUFFIX,us
-
-# 以下内容必须有完整GeoIP数据库时才能启用，否则可能会出现未知错误
-# GEOIP,US
