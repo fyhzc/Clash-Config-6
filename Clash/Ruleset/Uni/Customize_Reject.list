@@ -124,7 +124,6 @@ DOMAIN,ug.baidu.com
 
 # 西瓜播放器log收集器
 DOMAIN,mcs.snssdk.com
-# === beta ===
 # https://github.com/v2fly/domain-list-community/blob/0799995cd1711e8b055d4dcce9c4457e4c218bfc/data/bytedance-ads
 DOMAIN,bds.snssdk.com
 DOMAIN,ctobsnssdk.com
@@ -133,6 +132,7 @@ DOMAIN,i.snssdk.com
 DOMAIN,pangolin-sdk-toutiao.com
 DOMAIN,pglstatp-toutiao.com
 DOMAIN,sf3-ttcdn-tos.pstatp.com
+DOMAIN-SUFFIX,dig.bdurl.net
 
 # 哔哩哔哩
 DOMAIN-SUFFIX,line1-log.biligame.net
@@ -149,7 +149,6 @@ DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,fp-it.fengkongcloud.com
-DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,c.msn.com
 # DOMAIN-SUFFIX,c.bing.com
@@ -162,8 +161,13 @@ DOMAIN-SUFFIX,analysys.cn
 DOMAIN-SUFFIX,rp.hpplay.cn
 DOMAIN-SUFFIX,imdns.hpplay.cn
 DOMAIN-SUFFIX,sdkauth.hpplay.cn
-DOMAIN-SUFFIX,log.avlyun.com
-
+# DOMAIN-SUFFIX,log.avlyun.com
+DOMAIN-SUFFIX,avlinsight.com
+DOMAIN-SUFFIX,avlsec.com
+DOMAIN-SUFFIX,avlyun.cn
+DOMAIN-SUFFIX,avlyun.com
+DOMAIN-SUFFIX,avlyun.net
+DOMAIN-SUFFIX,avlyun.org
 
 DOMAIN-SUFFIX,ads.sohu.com
 
