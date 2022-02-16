@@ -206,11 +206,11 @@ DOMAIN,event.csdn.net
 
 # 阳光守护
 # DOMAIN-SUFFIX,eversunshine.cn
-DOMAIN-KEYWORD,eversunshine
+# DOMAIN-KEYWORD,eversunshine
 
 # 麦田守护
-DOMAIN-SUFFIX,famiguard.cn
-DOMAIN,famiguardapi.imyfone.cn
+# DOMAIN-SUFFIX,famiguard.cn
+# DOMAIN,famiguardapi.imyfone.cn
 
 # 以下是不受欢迎的软件列表
 # 流氓大王2345
@@ -240,8 +240,12 @@ DOMAIN-SUFFIX,sayhi.360.cn
 DOMAIN-SUFFIX,s.union.360.cn
 DOMAIN-SUFFIX,stat.m.360.cn
 DOMAIN-SUFFIX,tf.360.cn
+DOMAIN-SUFFIX,360shuke.com
 # 360浏览器
 DOMAIN-SUFFIX,browser.360.cn
+
+DOMAIN-SUFFIX,xjietiao.com
+DOMAIN-SUFFIX,360jrkt.com
 
 # 金山
 DOMAIN-SUFFIX,ijinshan.com
@@ -250,6 +254,8 @@ DOMAIN-SUFFIX,pc120.com
 DOMAIN-SUFFIX,duba.com
 DOMAIN-SUFFIX,cmcmcdn.com
 DOMAIN-SUFFIX,zhhainiao.com
+DOMAIN-SUFFIX,liebao.cn
+
 
 # 快压
 DOMAIN-SUFFIX,kuaizip.com
