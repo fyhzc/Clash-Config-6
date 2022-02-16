@@ -194,6 +194,9 @@ DOMAIN-SUFFIX,letv.com
 DOMAIN-SUFFIX,letvcdn.com
 DOMAIN-SUFFIX,letvimg.com
 
+# CODING
+DOMAIN-SUFFIX,coding.net
+
 # 城通网盘
 DOMAIN-SUFFIX,ctfile.com
 
